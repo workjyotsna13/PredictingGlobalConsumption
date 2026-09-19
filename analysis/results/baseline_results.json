@@ -1,0 +1,1523 @@
+{
+  "equation": "consumption_growth = b0 + b1*inflation + b2*interest_rate + b3*gdp_growth + b4*unemployment + e",
+  "n_obs": 480,
+  "r_squared": 0.9145336458131453,
+  "adj_r_squared": 0.9138139291463087,
+  "f_statistic": 1270.6856572222262,
+  "f_pvalue": 4.367300257947376e-252,
+  "coefficients": [
+    {
+      "term": "const",
+      "estimate": 1.5460666782027501,
+      "std_error": 0.13224740668017698,
+      "t": 11.690714525251218,
+      "p_value": 6.340200992713096e-28,
+      "significant_05": true
+    },
+    {
+      "term": "inflation",
+      "estimate": -0.8627401706555998,
+      "std_error": 0.047807075823715524,
+      "t": -18.046286157239148,
+      "p_value": 7.981752840288056e-56,
+      "significant_05": true
+    },
+    {
+      "term": "interest_rate",
+      "estimate": -0.5013582622632502,
+      "std_error": 0.03835379718411096,
+      "t": -13.071932874248777,
+      "p_value": 1.4256242268138738e-33,
+      "significant_05": true
+    },
+    {
+      "term": "gdp_growth",
+      "estimate": 0.42771479799056,
+      "std_error": 0.02412938610562084,
+      "t": 17.725888098368387,
+      "p_value": 2.476617660106815e-54,
+      "significant_05": true
+    },
+    {
+      "term": "unemployment",
+      "estimate": -0.11053030513418138,
+      "std_error": 0.012240075188046026,
+      "t": -9.030198216603125,
+      "p_value": 4.303055508370763e-18,
+      "significant_05": true
+    }
+  ],
+  "key_predictors": [
+    "inflation",
+    "interest_rate"
+  ],
+  "breusch_pagan": {
+    "lm_statistic": 47.60477506034215,
+    "lm_pvalue": 1.1409009150822138e-09,
+    "f_statistic": 13.073842430162207,
+    "f_pvalue": 4.140449247926142e-10,
+    "heteroscedasticity_detected_05": true
+  },
+  "vif": [
+    {
+      "term": "inflation",
+      "vif": 5.269756554357998
+    },
+    {
+      "term": "interest_rate",
+      "vif": 5.461726748623459
+    },
+    {
+      "term": "gdp_growth",
+      "vif": 1.1603280192150687
+    },
+    {
+      "term": "unemployment",
+      "vif": 1.1556491704942056
+    }
+  ],
+  "multicollinearity_flag": false,
+  "residuals": [
+    {
+      "fitted": -1.2915711964560908,
+      "residual": -0.7054288035439094,
+      "country": "USA",
+      "year": 2000
+    },
+    {
+      "fitted": -1.5819551630534119,
+      "residual": -1.197044836946588,
+      "country": "USA",
+      "year": 2002
+    },
+    {
+      "fitted": -1.980642073698619,
+      "residual": 1.835642073698619,
+      "country": "USA",
+      "year": 2004
+    },
+    {
+      "fitted": -0.2806050267904016,
+      "residual": 0.36060502679040163,
+      "country": "USA",
+      "year": 2006
+    },
+    {
+      "fitted": -0.743529380615122,
+      "residual": -0.7434706193848781,
+      "country": "USA",
+      "year": 2008
+    },
+    {
+      "fitted": -1.3204659688873983,
+      "residual": 0.11846596888739835,
+      "country": "USA",
+      "year": 2010
+    },
+    {
+      "fitted": -2.327060314647839,
+      "residual": -0.8829396853521612,
+      "country": "USA",
+      "year": 2012
+    },
+    {
+      "fitted": -1.38591816502797,
+      "residual": 0.68091816502797,
+      "country": "USA",
+      "year": 2014
+    },
+    {
+      "fitted": -1.8558275909122446,
+      "residual": -0.5171724090877556,
+      "country": "USA",
+      "year": 2016
+    },
+    {
+      "fitted": -5.758718152069749,
+      "residual": 0.974718152069749,
+      "country": "USA",
+      "year": 2018
+    },
+    {
+      "fitted": -2.7337011064496264,
+      "residual": -0.07029889355037344,
+      "country": "USA",
+      "year": 2020
+    },
+    {
+      "fitted": -6.847865873667972,
+      "residual": 0.32386587366797226,
+      "country": "USA",
+      "year": 2022
+    },
+    {
+      "fitted": -0.8258710857521215,
+      "residual": -0.9371289142478784,
+      "country": "GBR",
+      "year": 2000
+    },
+    {
+      "fitted": -4.071466386646382,
+      "residual": 1.5664663866463817,
+      "country": "GBR",
+      "year": 2002
+    },
+    {
+      "fitted": -4.486225042715069,
+      "residual": 0.5852250427150691,
+      "country": "GBR",
+      "year": 2004
+    },
+    {
+      "fitted": -1.610974599482514,
+      "residual": -0.3520254005174861,
+      "country": "GBR",
+      "year": 2006
+    },
+    {
+      "fitted": -2.2715844341890605,
+      "residual": -0.029415565810939626,
+      "country": "GBR",
+      "year": 2008
+    },
+    {
+      "fitted": -2.036122577192877,
+      "residual": 0.9811225771928769,
+      "country": "GBR",
+      "year": 2010
+    },
+    {
+      "fitted": -1.354103379013801,
+      "residual": 0.043103379013801124,
+      "country": "GBR",
+      "year": 2012
+    },
+    {
+      "fitted": -3.700319675573399,
+      "residual": 1.594319675573399,
+      "country": "GBR",
+      "year": 2014
+    },
+    {
+      "fitted": -2.93418885865473,
+      "residual": -1.4708111413452705,
+      "country": "GBR",
+      "year": 2016
+    },
+    {
+      "fitted": -4.871935044245261,
+      "residual": 0.2169350442452611,
+      "country": "GBR",
+      "year": 2018
+    },
+    {
+      "fitted": -4.471486752014132,
+      "residual": -0.3555132479858676,
+      "country": "GBR",
+      "year": 2020
+    },
+    {
+      "fitted": -7.651359616717144,
+      "residual": -0.6726403832828556,
+      "country": "GBR",
+      "year": 2022
+    },
+    {
+      "fitted": -2.763830618897958,
+      "residual": -0.9391693811020421,
+      "country": "DEU",
+      "year": 2000
+    },
+    {
+      "fitted": -0.17103624849752755,
+      "residual": -1.2289637515024723,
+      "country": "DEU",
+      "year": 2002
+    },
+    {
+      "fitted": -0.9124217719286265,
+      "residual": -1.3135782280713735,
+      "country": "DEU",
+      "year": 2004
+    },
+    {
+      "fitted": 0.2465255052956507,
+      "residual": -1.0085255052956508,
+      "country": "DEU",
+      "year": 2006
+    },
+    {
+      "fitted": 0.2347885126263919,
+      "residual": -1.206788512626392,
+      "country": "DEU",
+      "year": 2008
+    },
+    {
+      "fitted": -2.157984660021043,
+      "residual": 0.05998466002104319,
+      "country": "DEU",
+      "year": 2010
+    },
+    {
+      "fitted": -1.2390008159208603,
+      "residual": -0.7069991840791396,
+      "country": "DEU",
+      "year": 2012
+    },
+    {
+      "fitted": -3.2573781394868067,
+      "residual": -0.3186218605131934,
+      "country": "DEU",
+      "year": 2014
+    },
+    {
+      "fitted": -1.8165644770349125,
+      "residual": 0.027564477034912604,
+      "country": "DEU",
+      "year": 2016
+    },
+    {
+      "fitted": -1.7266307256818543,
+      "residual": -2.050369274318146,
+      "country": "DEU",
+      "year": 2018
+    },
+    {
+      "fitted": -3.8870989500550106,
+      "residual": -0.6629010499449892,
+      "country": "DEU",
+      "year": 2020
+    },
+    {
+      "fitted": -6.201532381780094,
+      "residual": -1.8534676182199057,
+      "country": "DEU",
+      "year": 2022
+    },
+    {
+      "fitted": -3.442550236834016,
+      "residual": -0.8924497631659838,
+      "country": "FRA",
+      "year": 2000
+    },
+    {
+      "fitted": -3.3966412530138475,
+      "residual": -0.10735874698615255,
+      "country": "FRA",
+      "year": 2002
+    },
+    {
+      "fitted": -4.802484317733742,
+      "residual": 0.6334843177337426,
+      "country": "FRA",
+      "year": 2004
+    },
+    {
+      "fitted": -2.7012390564330575,
+      "residual": -1.0987609435669423,
+      "country": "FRA",
+      "year": 2006
+    },
+    {
+      "fitted": -3.826382023828545,
+      "residual": -0.37461797617145454,
+      "country": "FRA",
+      "year": 2008
+    },
+    {
+      "fitted": -2.8370491675254974,
+      "residual": -1.0269508324745025,
+      "country": "FRA",
+      "year": 2010
+    },
+    {
+      "fitted": -5.00892455743731,
+      "residual": 0.7719245574373099,
+      "country": "FRA",
+      "year": 2012
+    },
+    {
+      "fitted": -2.9225440429135983,
+      "residual": -0.6324559570864019,
+      "country": "FRA",
+      "year": 2014
+    },
+    {
+      "fitted": -1.4519173472942555,
+      "residual": -1.9230826527057445,
+      "country": "FRA",
+      "year": 2016
+    },
+    {
+      "fitted": -1.2868865129853857,
+      "residual": -0.37211348701461433,
+      "country": "FRA",
+      "year": 2018
+    },
+    {
+      "fitted": -0.695154089897064,
+      "residual": -1.844845910102936,
+      "country": "FRA",
+      "year": 2020
+    },
+    {
+      "fitted": -4.958985877293224,
+      "residual": -1.2950141227067755,
+      "country": "FRA",
+      "year": 2022
+    },
+    {
+      "fitted": 1.4770096583199417,
+      "residual": -1.4320096583199418,
+      "country": "JPN",
+      "year": 2000
+    },
+    {
+      "fitted": -0.6510344734885218,
+      "residual": 0.1170344734885218,
+      "country": "JPN",
+      "year": 2002
+    },
+    {
+      "fitted": 0.0037965113479912437,
+      "residual": -1.2917965113479912,
+      "country": "JPN",
+      "year": 2004
+    },
+    {
+      "fitted": 0.0547911378577663,
+      "residual": -1.6957911378577664,
+      "country": "JPN",
+      "year": 2006
+    },
+    {
+      "fitted": -1.8657830454728033,
+      "residual": -0.8502169545271969,
+      "country": "JPN",
+      "year": 2008
+    },
+    {
+      "fitted": -0.7578262534172815,
+      "residual": -3.2381737465827185,
+      "country": "JPN",
+      "year": 2010
+    },
+    {
+      "fitted": -1.6255364413294577,
+      "residual": -2.2394635586705425,
+      "country": "JPN",
+      "year": 2012
+    },
+    {
+      "fitted": -1.5148320765085994,
+      "residual": -0.42216792349140064,
+      "country": "JPN",
+      "year": 2014
+    },
+    {
+      "fitted": -0.8710865427315578,
+      "residual": -0.46691345726844224,
+      "country": "JPN",
+      "year": 2016
+    },
+    {
+      "fitted": 0.22261257151322134,
+      "residual": -1.9046125715132214,
+      "country": "JPN",
+      "year": 2018
+    },
+    {
+      "fitted": -1.611928014295287,
+      "residual": -0.8860719857047132,
+      "country": "JPN",
+      "year": 2020
+    },
+    {
+      "fitted": -4.521397153398306,
+      "residual": 0.8993971533983061,
+      "country": "JPN",
+      "year": 2022
+    },
+    {
+      "fitted": -2.1568236685121933,
+      "residual": 0.4848236685121934,
+      "country": "CAN",
+      "year": 2000
+    },
+    {
+      "fitted": -3.4531902690745246,
+      "residual": 0.46919026907452466,
+      "country": "CAN",
+      "year": 2002
+    },
+    {
+      "fitted": -3.7669302808634018,
+      "residual": -0.030069719136598394,
+      "country": "CAN",
+      "year": 2004
+    },
+    {
+      "fitted": -3.5444082887524506,
+      "residual": 0.4704082887524508,
+      "country": "CAN",
+      "year": 2006
+    },
+    {
+      "fitted": -1.1166903438034468,
+      "residual": 0.07169034380344685,
+      "country": "CAN",
+      "year": 2008
+    },
+    {
+      "fitted": -1.4900756249005096,
+      "residual": -1.0559243750994902,
+      "country": "CAN",
+      "year": 2010
+    },
+    {
+      "fitted": -0.9986143090579902,
+      "residual": 0.7066143090579902,
+      "country": "CAN",
+      "year": 2012
+    },
+    {
+      "fitted": -1.9810701239453556,
+      "residual": 1.8840701239453557,
+      "country": "CAN",
+      "year": 2014
+    },
+    {
+      "fitted": -1.7020414977488603,
+      "residual": -0.3669585022511397,
+      "country": "CAN",
+      "year": 2016
+    },
+    {
+      "fitted": -2.5066013716005684,
+      "residual": -0.6763986283994314,
+      "country": "CAN",
+      "year": 2018
+    },
+    {
+      "fitted": -3.5805563592251866,
+      "residual": -2.237443640774813,
+      "country": "CAN",
+      "year": 2020
+    },
+    {
+      "fitted": -8.267166223363638,
+      "residual": -0.4708337766363613,
+      "country": "CAN",
+      "year": 2022
+    },
+    {
+      "fitted": -2.7778092680498254,
+      "residual": -0.3761907319501745,
+      "country": "AUS",
+      "year": 2000
+    },
+    {
+      "fitted": -5.0812447456787755,
+      "residual": 0.6552447456787753,
+      "country": "AUS",
+      "year": 2002
+    },
+    {
+      "fitted": -4.902558574530551,
+      "residual": 0.38055857453055086,
+      "country": "AUS",
+      "year": 2004
+    },
+    {
+      "fitted": -2.5095856067698343,
+      "residual": -0.7754143932301658,
+      "country": "AUS",
+      "year": 2006
+    },
+    {
+      "fitted": -4.704272725615172,
+      "residual": -0.30672727438482816,
+      "country": "AUS",
+      "year": 2008
+    },
+    {
+      "fitted": -4.838216129584078,
+      "residual": 0.3972161295840779,
+      "country": "AUS",
+      "year": 2010
+    },
+    {
+      "fitted": -3.90653374327551,
+      "residual": 0.011533743275510044,
+      "country": "AUS",
+      "year": 2012
+    },
+    {
+      "fitted": -1.954064500575819,
+      "residual": -0.537935499424181,
+      "country": "AUS",
+      "year": 2014
+    },
+    {
+      "fitted": -3.3993109307924576,
+      "residual": -0.06468906920754236,
+      "country": "AUS",
+      "year": 2016
+    },
+    {
+      "fitted": -5.554068488530833,
+      "residual": 1.260068488530833,
+      "country": "AUS",
+      "year": 2018
+    },
+    {
+      "fitted": -3.91263862438431,
+      "residual": -0.6953613756156898,
+      "country": "AUS",
+      "year": 2020
+    },
+    {
+      "fitted": -7.024017665740357,
+      "residual": -0.02098233425964313,
+      "country": "AUS",
+      "year": 2022
+    },
+    {
+      "fitted": -10.509867102805167,
+      "residual": -0.25713289719483257,
+      "country": "BRA",
+      "year": 2000
+    },
+    {
+      "fitted": -10.157998554952208,
+      "residual": -0.4760014450477925,
+      "country": "BRA",
+      "year": 2002
+    },
+    {
+      "fitted": -8.881229768253759,
+      "residual": -2.676770231746241,
+      "country": "BRA",
+      "year": 2004
+    },
+    {
+      "fitted": -11.472539462276126,
+      "residual": -0.6784605377238737,
+      "country": "BRA",
+      "year": 2006
+    },
+    {
+      "fitted": -10.759306620359485,
+      "residual": -0.7616933796405156,
+      "country": "BRA",
+      "year": 2008
+    },
+    {
+      "fitted": -9.704088440968091,
+      "residual": -0.06991155903190815,
+      "country": "BRA",
+      "year": 2010
+    },
+    {
+      "fitted": -11.064604974277447,
+      "residual": 0.260604974277447,
+      "country": "BRA",
+      "year": 2012
+    },
+    {
+      "fitted": -7.905247847391142,
+      "residual": -1.5497521526088578,
+      "country": "BRA",
+      "year": 2014
+    },
+    {
+      "fitted": -8.526742366057858,
+      "residual": -0.0002576339421409557,
+      "country": "BRA",
+      "year": 2016
+    },
+    {
+      "fitted": -8.170468653923626,
+      "residual": -0.6815313460763743,
+      "country": "BRA",
+      "year": 2018
+    },
+    {
+      "fitted": -10.950430389506693,
+      "residual": 0.3284303895066927,
+      "country": "BRA",
+      "year": 2020
+    },
+    {
+      "fitted": -12.718776648015922,
+      "residual": -0.21722335198407805,
+      "country": "BRA",
+      "year": 2022
+    },
+    {
+      "fitted": -6.5338114543463535,
+      "residual": 0.014811454346353337,
+      "country": "MEX",
+      "year": 2000
+    },
+    {
+      "fitted": -4.461058417802338,
+      "residual": -1.2339415821976623,
+      "country": "MEX",
+      "year": 2002
+    },
+    {
+      "fitted": -6.994822016819285,
+      "residual": -1.5571779831807149,
+      "country": "MEX",
+      "year": 2004
+    },
+    {
+      "fitted": -6.535570410886878,
+      "residual": 0.2365704108868778,
+      "country": "MEX",
+      "year": 2006
+    },
+    {
+      "fitted": -5.556565408555046,
+      "residual": -0.8184345914449542,
+      "country": "MEX",
+      "year": 2008
+    },
+    {
+      "fitted": -6.119626769056937,
+      "residual": -0.08037323094306359,
+      "country": "MEX",
+      "year": 2010
+    },
+    {
+      "fitted": -6.032291558054121,
+      "residual": -0.9767084419458794,
+      "country": "MEX",
+      "year": 2012
+    },
+    {
+      "fitted": -5.221496284523868,
+      "residual": -0.9795037154761319,
+      "country": "MEX",
+      "year": 2014
+    },
+    {
+      "fitted": -1.141227054556727,
+      "residual": -1.4987729454432732,
+      "country": "MEX",
+      "year": 2016
+    },
+    {
+      "fitted": -3.5079775767386687,
+      "residual": -0.9020224232613314,
+      "country": "MEX",
+      "year": 2018
+    },
+    {
+      "fitted": -3.959412386329795,
+      "residual": -1.0205876136702052,
+      "country": "MEX",
+      "year": 2020
+    },
+    {
+      "fitted": -9.95711100067722,
+      "residual": 0.15611100067721928,
+      "country": "MEX",
+      "year": 2022
+    },
+    {
+      "fitted": -7.468523885558247,
+      "residual": 2.525523885558248,
+      "country": "IND",
+      "year": 2000
+    },
+    {
+      "fitted": -3.944641588011193,
+      "residual": 0.9056415880111928,
+      "country": "IND",
+      "year": 2002
+    },
+    {
+      "fitted": -5.927188765013272,
+      "residual": 1.2101887650132728,
+      "country": "IND",
+      "year": 2004
+    },
+    {
+      "fitted": -4.868332020614666,
+      "residual": 0.9993320206146659,
+      "country": "IND",
+      "year": 2006
+    },
+    {
+      "fitted": -5.03231497687663,
+      "residual": 0.05031497687662956,
+      "country": "IND",
+      "year": 2008
+    },
+    {
+      "fitted": -6.051565041088173,
+      "residual": 1.9495650410881726,
+      "country": "IND",
+      "year": 2010
+    },
+    {
+      "fitted": -4.406766117911623,
+      "residual": 1.074766117911623,
+      "country": "IND",
+      "year": 2012
+    },
+    {
+      "fitted": -2.8686552439240787,
+      "residual": 0.6386552439240787,
+      "country": "IND",
+      "year": 2014
+    },
+    {
+      "fitted": -2.0407854478215883,
+      "residual": 1.4977854478215882,
+      "country": "IND",
+      "year": 2016
+    },
+    {
+      "fitted": -4.530820013453034,
+      "residual": 0.8698200134530336,
+      "country": "IND",
+      "year": 2018
+    },
+    {
+      "fitted": -6.719222971880648,
+      "residual": 2.5282229718806484,
+      "country": "IND",
+      "year": 2020
+    },
+    {
+      "fitted": -8.73798846115231,
+      "residual": 1.9369884611523105,
+      "country": "IND",
+      "year": 2022
+    },
+    {
+      "fitted": -0.10970054439903522,
+      "residual": 3.1827005443990353,
+      "country": "CHN",
+      "year": 2000
+    },
+    {
+      "fitted": 0.39330609880602546,
+      "residual": 2.4136939011939744,
+      "country": "CHN",
+      "year": 2002
+    },
+    {
+      "fitted": 0.7254206836735264,
+      "residual": 2.9425793163264737,
+      "country": "CHN",
+      "year": 2004
+    },
+    {
+      "fitted": 0.2966089944141239,
+      "residual": 3.069391005585876,
+      "country": "CHN",
+      "year": 2006
+    },
+    {
+      "fitted": -0.5607143543109427,
+      "residual": 2.156714354310943,
+      "country": "CHN",
+      "year": 2008
+    },
+    {
+      "fitted": -1.6700110098681988,
+      "residual": 2.616011009868199,
+      "country": "CHN",
+      "year": 2010
+    },
+    {
+      "fitted": -1.879227159883227,
+      "residual": 2.9122271598832272,
+      "country": "CHN",
+      "year": 2012
+    },
+    {
+      "fitted": 1.0627060737110334,
+      "residual": 2.156293926288966,
+      "country": "CHN",
+      "year": 2014
+    },
+    {
+      "fitted": 0.1309677805913188,
+      "residual": 4.412032219408681,
+      "country": "CHN",
+      "year": 2016
+    },
+    {
+      "fitted": 0.16835619207667507,
+      "residual": 3.4736438079233247,
+      "country": "CHN",
+      "year": 2018
+    },
+    {
+      "fitted": 0.06509492733216882,
+      "residual": 2.004905072667831,
+      "country": "CHN",
+      "year": 2020
+    },
+    {
+      "fitted": -4.831447138604188,
+      "residual": 3.7764471386041887,
+      "country": "CHN",
+      "year": 2022
+    },
+    {
+      "fitted": -3.178419803820619,
+      "residual": 2.543419803820619,
+      "country": "KOR",
+      "year": 2000
+    },
+    {
+      "fitted": -1.9294935854322612,
+      "residual": 0.3804935854322613,
+      "country": "KOR",
+      "year": 2002
+    },
+    {
+      "fitted": -0.8971577137367233,
+      "residual": -0.15484228626327678,
+      "country": "KOR",
+      "year": 2004
+    },
+    {
+      "fitted": -0.3386344253062713,
+      "residual": -0.22936557469372865,
+      "country": "KOR",
+      "year": 2006
+    },
+    {
+      "fitted": -0.6622091140001247,
+      "residual": 0.7842091140001247,
+      "country": "KOR",
+      "year": 2008
+    },
+    {
+      "fitted": 1.6142780223592372,
+      "residual": -0.6802780223592372,
+      "country": "KOR",
+      "year": 2010
+    },
+    {
+      "fitted": -0.08387570666322913,
+      "residual": -0.23212429333677087,
+      "country": "KOR",
+      "year": 2012
+    },
+    {
+      "fitted": -0.07844130093224926,
+      "residual": 0.5724413009322492,
+      "country": "KOR",
+      "year": 2014
+    },
+    {
+      "fitted": 0.5872681391345943,
+      "residual": -0.6482681391345944,
+      "country": "KOR",
+      "year": 2016
+    },
+    {
+      "fitted": 0.02047624987430552,
+      "residual": -0.8344762498743055,
+      "country": "KOR",
+      "year": 2018
+    },
+    {
+      "fitted": -2.209862128519104,
+      "residual": -0.38713787148089596,
+      "country": "KOR",
+      "year": 2020
+    },
+    {
+      "fitted": -5.064703534230629,
+      "residual": 0.3767035342306295,
+      "country": "KOR",
+      "year": 2022
+    },
+    {
+      "fitted": -5.689093041239609,
+      "residual": 1.583093041239609,
+      "country": "IDN",
+      "year": 2000
+    },
+    {
+      "fitted": -5.162433092518809,
+      "residual": 0.08643309251880904,
+      "country": "IDN",
+      "year": 2002
+    },
+    {
+      "fitted": -4.576512309371021,
+      "residual": -0.4254876906289784,
+      "country": "IDN",
+      "year": 2004
+    },
+    {
+      "fitted": -3.420772720289492,
+      "residual": -0.2512272797105082,
+      "country": "IDN",
+      "year": 2006
+    },
+    {
+      "fitted": -7.097034459944941,
+      "residual": -0.19796554005505929,
+      "country": "IDN",
+      "year": 2008
+    },
+    {
+      "fitted": -6.216081226402343,
+      "residual": 0.24108122640234342,
+      "country": "IDN",
+      "year": 2010
+    },
+    {
+      "fitted": -7.885913476320217,
+      "residual": 0.7499134763202173,
+      "country": "IDN",
+      "year": 2012
+    },
+    {
+      "fitted": -6.4009871859561684,
+      "residual": 0.1419871859561681,
+      "country": "IDN",
+      "year": 2014
+    },
+    {
+      "fitted": -3.046795268482351,
+      "residual": 1.0117952684823508,
+      "country": "IDN",
+      "year": 2016
+    },
+    {
+      "fitted": -2.597518123582137,
+      "residual": -0.5864818764178632,
+      "country": "IDN",
+      "year": 2018
+    },
+    {
+      "fitted": -5.832177913400462,
+      "residual": 1.022177913400462,
+      "country": "IDN",
+      "year": 2020
+    },
+    {
+      "fitted": -9.37491386642002,
+      "residual": 1.1989138664200194,
+      "country": "IDN",
+      "year": 2022
+    },
+    {
+      "fitted": -7.329133555723146,
+      "residual": 1.3331335557231458,
+      "country": "ZAF",
+      "year": 2000
+    },
+    {
+      "fitted": -6.359631490650918,
+      "residual": 0.21263149065091813,
+      "country": "ZAF",
+      "year": 2002
+    },
+    {
+      "fitted": -7.544313990048543,
+      "residual": 0.033313990048543296,
+      "country": "ZAF",
+      "year": 2004
+    },
+    {
+      "fitted": -8.690415028655728,
+      "residual": 1.6494150286557279,
+      "country": "ZAF",
+      "year": 2006
+    },
+    {
+      "fitted": -8.48653931179603,
+      "residual": -0.6004606882039702,
+      "country": "ZAF",
+      "year": 2008
+    },
+    {
+      "fitted": -10.030370741897947,
+      "residual": 1.897370741897948,
+      "country": "ZAF",
+      "year": 2010
+    },
+    {
+      "fitted": -9.46679786838936,
+      "residual": -0.3532021316106402,
+      "country": "ZAF",
+      "year": 2012
+    },
+    {
+      "fitted": -9.911105165173126,
+      "residual": 0.2701051651731259,
+      "country": "ZAF",
+      "year": 2014
+    },
+    {
+      "fitted": -8.510985576765078,
+      "residual": -0.11301442323492239,
+      "country": "ZAF",
+      "year": 2016
+    },
+    {
+      "fitted": -8.808510435975814,
+      "residual": 1.322510435975814,
+      "country": "ZAF",
+      "year": 2018
+    },
+    {
+      "fitted": -8.610152217475175,
+      "residual": 0.9961522174751751,
+      "country": "ZAF",
+      "year": 2020
+    },
+    {
+      "fitted": -10.83382630560181,
+      "residual": 1.9398263056018106,
+      "country": "ZAF",
+      "year": 2022
+    },
+    {
+      "fitted": -17.26150239647756,
+      "residual": -0.5184976035224409,
+      "country": "TUR",
+      "year": 2000
+    },
+    {
+      "fitted": -18.14749063510676,
+      "residual": 0.38749063510675796,
+      "country": "TUR",
+      "year": 2002
+    },
+    {
+      "fitted": -18.507671605817627,
+      "residual": 0.42267160581762653,
+      "country": "TUR",
+      "year": 2004
+    },
+    {
+      "fitted": -18.07128733845971,
+      "residual": 0.10628733845971183,
+      "country": "TUR",
+      "year": 2006
+    },
+    {
+      "fitted": -14.149251024256397,
+      "residual": -2.0497489757436043,
+      "country": "TUR",
+      "year": 2008
+    },
+    {
+      "fitted": -14.769451566056114,
+      "residual": -1.3815484339438857,
+      "country": "TUR",
+      "year": 2010
+    },
+    {
+      "fitted": -14.751590803303648,
+      "residual": -0.8724091966963528,
+      "country": "TUR",
+      "year": 2012
+    },
+    {
+      "fitted": -14.283740719667017,
+      "residual": -0.6392592803329826,
+      "country": "TUR",
+      "year": 2014
+    },
+    {
+      "fitted": -12.209135367680702,
+      "residual": -1.5538646323192982,
+      "country": "TUR",
+      "year": 2016
+    },
+    {
+      "fitted": -13.356665348392479,
+      "residual": -0.4453346516075207,
+      "country": "TUR",
+      "year": 2018
+    },
+    {
+      "fitted": -15.506066004000747,
+      "residual": 0.028066004000747213,
+      "country": "TUR",
+      "year": 2020
+    },
+    {
+      "fitted": -19.60373120456186,
+      "residual": 0.32673120456185956,
+      "country": "TUR",
+      "year": 2022
+    },
+    {
+      "fitted": -3.822294241416451,
+      "residual": 0.6512942414164513,
+      "country": "POL",
+      "year": 2000
+    },
+    {
+      "fitted": -3.690927807664523,
+      "residual": -0.9920721923354767,
+      "country": "POL",
+      "year": 2002
+    },
+    {
+      "fitted": -3.5455895589683335,
+      "residual": 0.1455895589683336,
+      "country": "POL",
+      "year": 2004
+    },
+    {
+      "fitted": -4.297154930658499,
+      "residual": 0.03015493065849828,
+      "country": "POL",
+      "year": 2006
+    },
+    {
+      "fitted": -3.0952641769943487,
+      "residual": 0.7672641769943489,
+      "country": "POL",
+      "year": 2008
+    },
+    {
+      "fitted": -2.9765467854642953,
+      "residual": 1.1185467854642952,
+      "country": "POL",
+      "year": 2010
+    },
+    {
+      "fitted": -2.3009534444933544,
+      "residual": 0.4689534444933543,
+      "country": "POL",
+      "year": 2012
+    },
+    {
+      "fitted": -1.470670595162576,
+      "residual": -2.0203294048374243,
+      "country": "POL",
+      "year": 2014
+    },
+    {
+      "fitted": -2.3421106907265914,
+      "residual": -0.4048893092734085,
+      "country": "POL",
+      "year": 2016
+    },
+    {
+      "fitted": -3.506060551496982,
+      "residual": 0.6100605514969821,
+      "country": "POL",
+      "year": 2018
+    },
+    {
+      "fitted": -5.257665975519524,
+      "residual": 1.5906659755195243,
+      "country": "POL",
+      "year": 2020
+    },
+    {
+      "fitted": -7.032759361163055,
+      "residual": -0.9042406388369457,
+      "country": "POL",
+      "year": 2022
+    },
+    {
+      "fitted": -2.6334897316372308,
+      "residual": 0.9074897316372308,
+      "country": "ESP",
+      "year": 2000
+    },
+    {
+      "fitted": -1.7093105423598636,
+      "residual": -2.1946894576401363,
+      "country": "ESP",
+      "year": 2002
+    },
+    {
+      "fitted": -1.9254832169714378,
+      "residual": -0.7555167830285623,
+      "country": "ESP",
+      "year": 2004
+    },
+    {
+      "fitted": 0.4805638638125014,
+      "residual": -1.2375638638125013,
+      "country": "ESP",
+      "year": 2006
+    },
+    {
+      "fitted": -2.0698998802364272,
+      "residual": -0.6751001197635729,
+      "country": "ESP",
+      "year": 2008
+    },
+    {
+      "fitted": -0.2779179380882031,
+      "residual": -1.6840820619117969,
+      "country": "ESP",
+      "year": 2010
+    },
+    {
+      "fitted": -0.9760581326562148,
+      "residual": 0.7780581326562148,
+      "country": "ESP",
+      "year": 2012
+    },
+    {
+      "fitted": -1.658401518636778,
+      "residual": 0.756401518636778,
+      "country": "ESP",
+      "year": 2014
+    },
+    {
+      "fitted": -0.05311013570676748,
+      "residual": -0.5968898642932325,
+      "country": "ESP",
+      "year": 2016
+    },
+    {
+      "fitted": -3.463858202592596,
+      "residual": 1.028858202592596,
+      "country": "ESP",
+      "year": 2018
+    },
+    {
+      "fitted": -2.363033834343956,
+      "residual": 0.4400338343439558,
+      "country": "ESP",
+      "year": 2020
+    },
+    {
+      "fitted": -6.056425384927048,
+      "residual": 1.7324253849270486,
+      "country": "ESP",
+      "year": 2022
+    },
+    {
+      "fitted": -1.8176007593015437,
+      "residual": -1.7773992406984565,
+      "country": "ITA",
+      "year": 2000
+    },
+    {
+      "fitted": -5.054930313115312,
+      "residual": -0.1700696868846876,
+      "country": "ITA",
+      "year": 2002
+    },
+    {
+      "fitted": -5.856520831915121,
+      "residual": 0.4865208319151213,
+      "country": "ITA",
+      "year": 2004
+    },
+    {
+      "fitted": -5.9133309371708815,
+      "residual": 1.5093309371708816,
+      "country": "ITA",
+      "year": 2006
+    },
+    {
+      "fitted": -4.058719539297616,
+      "residual": -0.777280460702384,
+      "country": "ITA",
+      "year": 2008
+    },
+    {
+      "fitted": -4.614087714231951,
+      "residual": -0.039912285768048505,
+      "country": "ITA",
+      "year": 2010
+    },
+    {
+      "fitted": -3.756024170576351,
+      "residual": -1.2599758294236492,
+      "country": "ITA",
+      "year": 2012
+    },
+    {
+      "fitted": -2.36856839883575,
+      "residual": -2.3324316011642496,
+      "country": "ITA",
+      "year": 2014
+    },
+    {
+      "fitted": -1.5162547350563251,
+      "residual": -0.5057452649436747,
+      "country": "ITA",
+      "year": 2016
+    },
+    {
+      "fitted": -2.377580784168268,
+      "residual": -0.931419215831732,
+      "country": "ITA",
+      "year": 2018
+    },
+    {
+      "fitted": -2.315760650356128,
+      "residual": -1.7122393496438715,
+      "country": "ITA",
+      "year": 2020
+    },
+    {
+      "fitted": -8.02527198557139,
+      "residual": -1.7067280144286094,
+      "country": "ITA",
+      "year": 2022
+    },
+    {
+      "fitted": -1.5657895356788631,
+      "residual": 0.06778953567886314,
+      "country": "NLD",
+      "year": 2000
+    },
+    {
+      "fitted": -3.793473170775023,
+      "residual": 0.6194731707750232,
+      "country": "NLD",
+      "year": 2002
+    },
+    {
+      "fitted": -3.4123991370385767,
+      "residual": -0.3166008629614234,
+      "country": "NLD",
+      "year": 2004
+    },
+    {
+      "fitted": -2.665674515379862,
+      "residual": -0.5433254846201381,
+      "country": "NLD",
+      "year": 2006
+    },
+    {
+      "fitted": -3.069589423243598,
+      "residual": -0.147410576756402,
+      "country": "NLD",
+      "year": 2008
+    },
+    {
+      "fitted": -1.4362531324172993,
+      "residual": -0.8947468675827006,
+      "country": "NLD",
+      "year": 2010
+    },
+    {
+      "fitted": 0.45805217522932784,
+      "residual": -1.3290521752293278,
+      "country": "NLD",
+      "year": 2012
+    },
+    {
+      "fitted": -1.5166073370807827,
+      "residual": -1.4593926629192173,
+      "country": "NLD",
+      "year": 2014
+    },
+    {
+      "fitted": -0.5592787041877876,
+      "residual": -1.0187212958122125,
+      "country": "NLD",
+      "year": 2016
+    },
+    {
+      "fitted": -2.841345103420834,
+      "residual": -0.588654896579166,
+      "country": "NLD",
+      "year": 2018
+    },
+    {
+      "fitted": -4.221426484832009,
+      "residual": -0.30457351516799047,
+      "country": "NLD",
+      "year": 2020
+    },
+    {
+      "fitted": -6.019139339615961,
+      "residual": -1.499860660384039,
+      "country": "NLD",
+      "year": 2022
+    },
+    {
+      "fitted": -1.119849457174878,
+      "residual": 0.11584945717487805,
+      "country": "SWE",
+      "year": 2000
+    },
+    {
+      "fitted": -2.134591659036384,
+      "residual": -0.4504083409636159,
+      "country": "SWE",
+      "year": 2002
+    },
+    {
+      "fitted": -0.3966049818884325,
+      "residual": -0.7193950181115676,
+      "country": "SWE",
+      "year": 2004
+    },
+    {
+      "fitted": -1.6565907454276416,
+      "residual": -0.19740925457235847,
+      "country": "SWE",
+      "year": 2006
+    },
+    {
+      "fitted": -2.595982818869455,
+      "residual": -0.4500171811305447,
+      "country": "SWE",
+      "year": 2008
+    },
+    {
+      "fitted": 0.0038779298190978473,
+      "residual": -1.1918779298190978,
+      "country": "SWE",
+      "year": 2010
+    },
+    {
+      "fitted": -2.2079044815691535,
+      "residual": -0.5620955184308465,
+      "country": "SWE",
+      "year": 2012
+    },
+    {
+      "fitted": 0.6822476158298283,
+      "residual": -1.2202476158298283,
+      "country": "SWE",
+      "year": 2014
+    },
+    {
+      "fitted": 0.4739485153790284,
+      "residual": 0.1320514846209716,
+      "country": "SWE",
+      "year": 2016
+    },
+    {
+      "fitted": -0.05441131212048711,
+      "residual": -0.06758868787951289,
+      "country": "SWE",
+      "year": 2018
+    },
+    {
+      "fitted": 0.06251968690925458,
+      "residual": 0.39848031309074544,
+      "country": "SWE",
+      "year": 2020
+    },
+    {
+      "fitted": -3.6498029657261135,
+      "residual": 0.32780296572611345,
+      "country": "SWE",
+      "year": 2022
+    }
+  ],
+  "summary_text": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:     consumption_growth   R-squared:                       0.915\nModel:                            OLS   Adj. R-squared:                  0.914\nMethod:                 Least Squares   F-statistic:                     1271.\nDate:                Sat, 19 Sep 2026   Prob (F-statistic):          4.37e-252\nTime:                        10:37:46   Log-Likelihood:                -775.80\nNo. Observations:                 480   AIC:                             1562.\nDf Residuals:                     475   BIC:                             1582.\nDf Model:                           4                                         \nCovariance Type:            nonrobust                                         \n=================================================================================\n                    coef    std err          t      P>|t|      [0.025      0.975]\n---------------------------------------------------------------------------------\nconst             1.5461      0.132     11.691      0.000       1.286       1.806\ninflation        -0.8627      0.048    -18.046      0.000      -0.957      -0.769\ninterest_rate    -0.5014      0.038    -13.072      0.000      -0.577      -0.426\ngdp_growth        0.4277      0.024     17.726      0.000       0.380       0.475\nunemployment     -0.1105      0.012     -9.030      0.000      -0.135      -0.086\n==============================================================================\nOmnibus:                       53.434   Durbin-Watson:                   0.947\nProb(Omnibus):                  0.000   Jarque-Bera (JB):               74.383\nSkew:                           0.791   Prob(JB):                     7.05e-17\nKurtosis:                       4.102   Cond. No.                         26.1\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified."
+}

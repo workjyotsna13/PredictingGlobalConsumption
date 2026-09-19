@@ -1,0 +1,4900 @@
+{
+  "meta": {
+    "n_obs": 480,
+    "n_countries": 20,
+    "year_min": 2000,
+    "year_max": 2023,
+    "seed": 2025,
+    "dependent": "consumption_growth",
+    "predictors": [
+      "inflation",
+      "interest_rate",
+      "gdp_growth",
+      "unemployment"
+    ]
+  },
+  "countries": [
+    {
+      "code": "AUS",
+      "name": "Australia"
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil"
+    },
+    {
+      "code": "CAN",
+      "name": "Canada"
+    },
+    {
+      "code": "CHN",
+      "name": "China"
+    },
+    {
+      "code": "DEU",
+      "name": "Germany"
+    },
+    {
+      "code": "ESP",
+      "name": "Spain"
+    },
+    {
+      "code": "FRA",
+      "name": "France"
+    },
+    {
+      "code": "GBR",
+      "name": "United Kingdom"
+    },
+    {
+      "code": "IDN",
+      "name": "Indonesia"
+    },
+    {
+      "code": "IND",
+      "name": "India"
+    },
+    {
+      "code": "ITA",
+      "name": "Italy"
+    },
+    {
+      "code": "JPN",
+      "name": "Japan"
+    },
+    {
+      "code": "KOR",
+      "name": "Korea, Rep."
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico"
+    },
+    {
+      "code": "NLD",
+      "name": "Netherlands"
+    },
+    {
+      "code": "POL",
+      "name": "Poland"
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden"
+    },
+    {
+      "code": "TUR",
+      "name": "Turkiye"
+    },
+    {
+      "code": "USA",
+      "name": "United States"
+    },
+    {
+      "code": "ZAF",
+      "name": "South Africa"
+    }
+  ],
+  "rows": [
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2000,
+      "consumption_growth": -1.997,
+      "inflation": 0.867,
+      "interest_rate": 4.044,
+      "gdp_growth": 1.13,
+      "unemployment": 4.935
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2001,
+      "consumption_growth": -1.396,
+      "inflation": 1.886,
+      "interest_rate": 3.767,
+      "gdp_growth": 2.779,
+      "unemployment": 5.023
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2002,
+      "consumption_growth": -2.779,
+      "inflation": 2.166,
+      "interest_rate": 4.238,
+      "gdp_growth": 3.316,
+      "unemployment": 5.002
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2003,
+      "consumption_growth": -1.153,
+      "inflation": 2.165,
+      "interest_rate": 4.034,
+      "gdp_growth": 7.583,
+      "unemployment": 4.053
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2004,
+      "consumption_growth": -0.145,
+      "inflation": 1.165,
+      "interest_rate": 3.652,
+      "gdp_growth": -0.479,
+      "unemployment": 4.395
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2005,
+      "consumption_growth": -0.507,
+      "inflation": 0.663,
+      "interest_rate": 3.684,
+      "gdp_growth": 3.296,
+      "unemployment": 4.487
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2006,
+      "consumption_growth": 0.08,
+      "inflation": 0.634,
+      "interest_rate": 3.435,
+      "gdp_growth": 2.193,
+      "unemployment": 4.483
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2007,
+      "consumption_growth": -0.75,
+      "inflation": 0.723,
+      "interest_rate": 3.456,
+      "gdp_growth": 2.45,
+      "unemployment": 3.942
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2008,
+      "consumption_growth": -1.487,
+      "inflation": 1.433,
+      "interest_rate": 3.695,
+      "gdp_growth": 2.648,
+      "unemployment": 3.016
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2009,
+      "consumption_growth": -1.294,
+      "inflation": 0.403,
+      "interest_rate": 3.285,
+      "gdp_growth": -3.567,
+      "unemployment": 4.285
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2010,
+      "consumption_growth": -1.202,
+      "inflation": 2.477,
+      "interest_rate": 3.831,
+      "gdp_growth": 3.898,
+      "unemployment": 4.307
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2011,
+      "consumption_growth": -2.183,
+      "inflation": 2.616,
+      "interest_rate": 3.72,
+      "gdp_growth": 0.163,
+      "unemployment": 4.103
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2012,
+      "consumption_growth": -3.21,
+      "inflation": 2.723,
+      "interest_rate": 4.034,
+      "gdp_growth": 2.379,
+      "unemployment": 4.695
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2013,
+      "consumption_growth": -2.432,
+      "inflation": 2.035,
+      "interest_rate": 4.526,
+      "gdp_growth": -0.017,
+      "unemployment": 5.233
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2014,
+      "consumption_growth": -0.705,
+      "inflation": 1.405,
+      "interest_rate": 4.163,
+      "gdp_growth": 2.131,
+      "unemployment": 4.923
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2015,
+      "consumption_growth": -0.609,
+      "inflation": 1.161,
+      "interest_rate": 4.379,
+      "gdp_growth": 3.882,
+      "unemployment": 4.541
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2016,
+      "consumption_growth": -2.373,
+      "inflation": 2.529,
+      "interest_rate": 4.794,
+      "gdp_growth": 3.703,
+      "unemployment": 3.622
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2017,
+      "consumption_growth": -3.539,
+      "inflation": 3.353,
+      "interest_rate": 5.854,
+      "gdp_growth": 1.542,
+      "unemployment": 3.846
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2018,
+      "consumption_growth": -4.784,
+      "inflation": 2.987,
+      "interest_rate": 5.99,
+      "gdp_growth": -2.836,
+      "unemployment": 4.629
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2019,
+      "consumption_growth": -3.822,
+      "inflation": 2.03,
+      "interest_rate": 5.359,
+      "gdp_growth": 1.407,
+      "unemployment": 4.619
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2020,
+      "consumption_growth": -2.804,
+      "inflation": 1.426,
+      "interest_rate": 5.561,
+      "gdp_growth": 0.494,
+      "unemployment": 4.277
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2021,
+      "consumption_growth": -4.277,
+      "inflation": 3.754,
+      "interest_rate": 6.102,
+      "gdp_growth": 1.764,
+      "unemployment": 5.047
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2022,
+      "consumption_growth": -6.524,
+      "inflation": 5.756,
+      "interest_rate": 6.138,
+      "gdp_growth": 0.595,
+      "unemployment": 5.475
+    },
+    {
+      "country_code": "USA",
+      "country": "United States",
+      "year": 2023,
+      "consumption_growth": -5.759,
+      "inflation": 5.212,
+      "interest_rate": 6.005,
+      "gdp_growth": 1.683,
+      "unemployment": 5.652
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2000,
+      "consumption_growth": -1.763,
+      "inflation": 2.166,
+      "interest_rate": 4.071,
+      "gdp_growth": 4.812,
+      "unemployment": 4.708
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2001,
+      "consumption_growth": -3.817,
+      "inflation": 3.047,
+      "interest_rate": 3.993,
+      "gdp_growth": 2.275,
+      "unemployment": 5.125
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2002,
+      "consumption_growth": -2.505,
+      "inflation": 2.509,
+      "interest_rate": 3.745,
+      "gdp_growth": -2.321,
+      "unemployment": 5.271
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2003,
+      "consumption_growth": -2.435,
+      "inflation": 2.752,
+      "interest_rate": 3.24,
+      "gdp_growth": -2.259,
+      "unemployment": 5.543
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2004,
+      "consumption_growth": -3.901,
+      "inflation": 3.371,
+      "interest_rate": 3.637,
+      "gdp_growth": -1.569,
+      "unemployment": 5.695
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2005,
+      "consumption_growth": -2.912,
+      "inflation": 1.848,
+      "interest_rate": 3.958,
+      "gdp_growth": -1.791,
+      "unemployment": 6.131
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2006,
+      "consumption_growth": -1.963,
+      "inflation": 1.891,
+      "interest_rate": 3.985,
+      "gdp_growth": 2.523,
+      "unemployment": 5.49
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2007,
+      "consumption_growth": -0.339,
+      "inflation": 0.729,
+      "interest_rate": 2.504,
+      "gdp_growth": -0.467,
+      "unemployment": 5.695
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2008,
+      "consumption_growth": -2.301,
+      "inflation": 1.302,
+      "interest_rate": 2.638,
+      "gdp_growth": -1.658,
+      "unemployment": 5.995
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2009,
+      "consumption_growth": -1.58,
+      "inflation": 0.969,
+      "interest_rate": 2.574,
+      "gdp_growth": -1.183,
+      "unemployment": 5.366
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2010,
+      "consumption_growth": -1.055,
+      "inflation": 1.967,
+      "interest_rate": 2.658,
+      "gdp_growth": 0.071,
+      "unemployment": 5.274
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2011,
+      "consumption_growth": -1.305,
+      "inflation": 1.751,
+      "interest_rate": 2.913,
+      "gdp_growth": 0.325,
+      "unemployment": 5.055
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2012,
+      "consumption_growth": -1.311,
+      "inflation": 1.681,
+      "interest_rate": 3.061,
+      "gdp_growth": 1.467,
+      "unemployment": 4.91
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2013,
+      "consumption_growth": -0.824,
+      "inflation": 2.551,
+      "interest_rate": 2.776,
+      "gdp_growth": -0.234,
+      "unemployment": 5.075
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2014,
+      "consumption_growth": -2.106,
+      "inflation": 2.572,
+      "interest_rate": 3.862,
+      "gdp_growth": -1.234,
+      "unemployment": 5.097
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2015,
+      "consumption_growth": -3.14,
+      "inflation": 3.281,
+      "interest_rate": 4.184,
+      "gdp_growth": 1.842,
+      "unemployment": 5.02
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2016,
+      "consumption_growth": -4.405,
+      "inflation": 3.493,
+      "interest_rate": 4.572,
+      "gdp_growth": 3.471,
+      "unemployment": 5.963
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2017,
+      "consumption_growth": -4.637,
+      "inflation": 3.142,
+      "interest_rate": 4.399,
+      "gdp_growth": 1.78,
+      "unemployment": 5.452
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2018,
+      "consumption_growth": -4.655,
+      "inflation": 3.59,
+      "interest_rate": 4.381,
+      "gdp_growth": -1.335,
+      "unemployment": 5.006
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2019,
+      "consumption_growth": -3.171,
+      "inflation": 2.699,
+      "interest_rate": 4.129,
+      "gdp_growth": 3.917,
+      "unemployment": 4.76
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2020,
+      "consumption_growth": -4.827,
+      "inflation": 3.533,
+      "interest_rate": 4.19,
+      "gdp_growth": -0.857,
+      "unemployment": 4.544
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2021,
+      "consumption_growth": -6.398,
+      "inflation": 5.862,
+      "interest_rate": 4.672,
+      "gdp_growth": 0.527,
+      "unemployment": 5.437
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2022,
+      "consumption_growth": -8.324,
+      "inflation": 7.363,
+      "interest_rate": 6.074,
+      "gdp_growth": 1.787,
+      "unemployment": 5.104
+    },
+    {
+      "country_code": "GBR",
+      "country": "United Kingdom",
+      "year": 2023,
+      "consumption_growth": -7.605,
+      "inflation": 6.007,
+      "interest_rate": 6.717,
+      "gdp_growth": 3.061,
+      "unemployment": 5.755
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2000,
+      "consumption_growth": -3.703,
+      "inflation": 2.759,
+      "interest_rate": 4.197,
+      "gdp_growth": 1.744,
+      "unemployment": 5.169
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2001,
+      "consumption_growth": -2.796,
+      "inflation": 1.848,
+      "interest_rate": 3.847,
+      "gdp_growth": 0.017,
+      "unemployment": 5.571
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2002,
+      "consumption_growth": -1.4,
+      "inflation": 0.964,
+      "interest_rate": 3.545,
+      "gdp_growth": 3.236,
+      "unemployment": 4.453
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2003,
+      "consumption_growth": -0.562,
+      "inflation": 0.072,
+      "interest_rate": 2.581,
+      "gdp_growth": 1.339,
+      "unemployment": 4.595
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2004,
+      "consumption_growth": -2.226,
+      "inflation": 1.282,
+      "interest_rate": 2.918,
+      "gdp_growth": 1.513,
+      "unemployment": 4.855
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2005,
+      "consumption_growth": -1.057,
+      "inflation": 1.158,
+      "interest_rate": 2.642,
+      "gdp_growth": 3.644,
+      "unemployment": 4.537
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2006,
+      "consumption_growth": -0.762,
+      "inflation": 0.755,
+      "interest_rate": 1.905,
+      "gdp_growth": 1.943,
+      "unemployment": 4.742
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2007,
+      "consumption_growth": 1.579,
+      "inflation": -0.742,
+      "interest_rate": 1.01,
+      "gdp_growth": 3.436,
+      "unemployment": 4.871
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2008,
+      "consumption_growth": -0.972,
+      "inflation": 0.255,
+      "interest_rate": 1.165,
+      "gdp_growth": 0.236,
+      "unemployment": 5.502
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2009,
+      "consumption_growth": -2.062,
+      "inflation": 1.644,
+      "interest_rate": 1.943,
+      "gdp_growth": -1.845,
+      "unemployment": 5.818
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2010,
+      "consumption_growth": -2.098,
+      "inflation": 1.964,
+      "interest_rate": 2.121,
+      "gdp_growth": -0.798,
+      "unemployment": 5.473
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2011,
+      "consumption_growth": -1.713,
+      "inflation": 1.616,
+      "interest_rate": 2.816,
+      "gdp_growth": 1.819,
+      "unemployment": 4.682
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2012,
+      "consumption_growth": -1.946,
+      "inflation": 1.871,
+      "interest_rate": 3.009,
+      "gdp_growth": 2.069,
+      "unemployment": 4.951
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2013,
+      "consumption_growth": -3.027,
+      "inflation": 2.194,
+      "interest_rate": 3.54,
+      "gdp_growth": 2.403,
+      "unemployment": 5.043
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2014,
+      "consumption_growth": -3.576,
+      "inflation": 1.99,
+      "interest_rate": 3.633,
+      "gdp_growth": -1.686,
+      "unemployment": 4.922
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2015,
+      "consumption_growth": -2.164,
+      "inflation": 1.262,
+      "interest_rate": 3.621,
+      "gdp_growth": 1.598,
+      "unemployment": 4.565
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2016,
+      "consumption_growth": -1.789,
+      "inflation": 1.374,
+      "interest_rate": 3.169,
+      "gdp_growth": -0.164,
+      "unemployment": 4.689
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2017,
+      "consumption_growth": -1.851,
+      "inflation": 1.731,
+      "interest_rate": 3.384,
+      "gdp_growth": 4.399,
+      "unemployment": 4.757
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2018,
+      "consumption_growth": -3.777,
+      "inflation": 1.685,
+      "interest_rate": 3.945,
+      "gdp_growth": 1.631,
+      "unemployment": 4.874
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2019,
+      "consumption_growth": -2.751,
+      "inflation": 1.532,
+      "interest_rate": 3.698,
+      "gdp_growth": -0.09,
+      "unemployment": 4.857
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2020,
+      "consumption_growth": -4.55,
+      "inflation": 2.504,
+      "interest_rate": 3.603,
+      "gdp_growth": -2.044,
+      "unemployment": 5.358
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2021,
+      "consumption_growth": -5.618,
+      "inflation": 5.242,
+      "interest_rate": 4.281,
+      "gdp_growth": 2.024,
+      "unemployment": 4.896
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2022,
+      "consumption_growth": -8.055,
+      "inflation": 7.097,
+      "interest_rate": 5.623,
+      "gdp_growth": 4.142,
+      "unemployment": 5.222
+    },
+    {
+      "country_code": "DEU",
+      "country": "Germany",
+      "year": 2023,
+      "consumption_growth": -6.972,
+      "inflation": 5.719,
+      "interest_rate": 5.958,
+      "gdp_growth": 4.417,
+      "unemployment": 5.634
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2000,
+      "consumption_growth": -4.335,
+      "inflation": 2.784,
+      "interest_rate": 3.934,
+      "gdp_growth": 0.857,
+      "unemployment": 8.875
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2001,
+      "consumption_growth": -3.014,
+      "inflation": 2.383,
+      "interest_rate": 3.952,
+      "gdp_growth": -1.969,
+      "unemployment": 9.302
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2002,
+      "consumption_growth": -3.504,
+      "inflation": 2.437,
+      "interest_rate": 3.953,
+      "gdp_growth": 0.358,
+      "unemployment": 9.151
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2003,
+      "consumption_growth": -4.259,
+      "inflation": 2.97,
+      "interest_rate": 4.112,
+      "gdp_growth": 3.203,
+      "unemployment": 7.676
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2004,
+      "consumption_growth": -4.169,
+      "inflation": 2.606,
+      "interest_rate": 5.389,
+      "gdp_growth": -1.005,
+      "unemployment": 8.763
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2005,
+      "consumption_growth": -4.581,
+      "inflation": 3.005,
+      "interest_rate": 4.994,
+      "gdp_growth": 2.071,
+      "unemployment": 8.556
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2006,
+      "consumption_growth": -3.8,
+      "inflation": 2.155,
+      "interest_rate": 4.64,
+      "gdp_growth": 2.057,
+      "unemployment": 8.519
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2007,
+      "consumption_growth": -3.149,
+      "inflation": 2.09,
+      "interest_rate": 4.317,
+      "gdp_growth": -1.954,
+      "unemployment": 9.292
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2008,
+      "consumption_growth": -4.201,
+      "inflation": 2.309,
+      "interest_rate": 4.506,
+      "gdp_growth": -0.327,
+      "unemployment": 8.879
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2009,
+      "consumption_growth": -4.911,
+      "inflation": 2.162,
+      "interest_rate": 4.611,
+      "gdp_growth": -1.047,
+      "unemployment": 9.339
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2010,
+      "consumption_growth": -3.864,
+      "inflation": 2.755,
+      "interest_rate": 4.561,
+      "gdp_growth": 3.045,
+      "unemployment": 9.246
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2011,
+      "consumption_growth": -4.269,
+      "inflation": 3.182,
+      "interest_rate": 4.805,
+      "gdp_growth": 5.304,
+      "unemployment": 8.439
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2012,
+      "consumption_growth": -4.237,
+      "inflation": 3.249,
+      "interest_rate": 5.247,
+      "gdp_growth": -0.576,
+      "unemployment": 7.916
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2013,
+      "consumption_growth": -4.095,
+      "inflation": 2.405,
+      "interest_rate": 4.657,
+      "gdp_growth": 0.962,
+      "unemployment": 7.58
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2014,
+      "consumption_growth": -3.555,
+      "inflation": 2.381,
+      "interest_rate": 4.276,
+      "gdp_growth": 1.192,
+      "unemployment": 7.061
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2015,
+      "consumption_growth": -2.663,
+      "inflation": 2.31,
+      "interest_rate": 3.658,
+      "gdp_growth": 0.688,
+      "unemployment": 7.131
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2016,
+      "consumption_growth": -3.375,
+      "inflation": 2.242,
+      "interest_rate": 3.444,
+      "gdp_growth": 3.307,
+      "unemployment": 6.799
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2017,
+      "consumption_growth": -2.669,
+      "inflation": 2.386,
+      "interest_rate": 3.501,
+      "gdp_growth": 2.414,
+      "unemployment": 6.735
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2018,
+      "consumption_growth": -1.659,
+      "inflation": 1.653,
+      "interest_rate": 3.255,
+      "gdp_growth": 2.207,
+      "unemployment": 6.504
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2019,
+      "consumption_growth": -1.349,
+      "inflation": 1.027,
+      "interest_rate": 3.124,
+      "gdp_growth": 0.947,
+      "unemployment": 6.492
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2020,
+      "consumption_growth": -2.54,
+      "inflation": 1.106,
+      "interest_rate": 2.836,
+      "gdp_growth": 2.173,
+      "unemployment": 7.189
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2021,
+      "consumption_growth": -3.429,
+      "inflation": 3.461,
+      "interest_rate": 3.177,
+      "gdp_growth": -0.365,
+      "unemployment": 7.649
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2022,
+      "consumption_growth": -6.254,
+      "inflation": 5.633,
+      "interest_rate": 4.237,
+      "gdp_growth": 3.055,
+      "unemployment": 7.488
+    },
+    {
+      "country_code": "FRA",
+      "country": "France",
+      "year": 2023,
+      "consumption_growth": -5.66,
+      "inflation": 4.141,
+      "interest_rate": 5.526,
+      "gdp_growth": 1.982,
+      "unemployment": 7.857
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2000,
+      "consumption_growth": 0.045,
+      "inflation": -0.257,
+      "interest_rate": 1.415,
+      "gdp_growth": 1.814,
+      "unemployment": 3.232
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2001,
+      "consumption_growth": -0.417,
+      "inflation": 0.39,
+      "interest_rate": 1.517,
+      "gdp_growth": -2.112,
+      "unemployment": 4.124
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2002,
+      "consumption_growth": -0.534,
+      "inflation": 0.346,
+      "interest_rate": 1.397,
+      "gdp_growth": -1.723,
+      "unemployment": 4.173
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2003,
+      "consumption_growth": -1.53,
+      "inflation": 1.276,
+      "interest_rate": 1.63,
+      "gdp_growth": 0.637,
+      "unemployment": 3.841
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2004,
+      "consumption_growth": -1.288,
+      "inflation": 0.912,
+      "interest_rate": 1.878,
+      "gdp_growth": 1.391,
+      "unemployment": 3.699
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2005,
+      "consumption_growth": -0.423,
+      "inflation": 1.73,
+      "interest_rate": 1.675,
+      "gdp_growth": 2.417,
+      "unemployment": 2.874
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2006,
+      "consumption_growth": -1.641,
+      "inflation": 0.865,
+      "interest_rate": 1.662,
+      "gdp_growth": 0.994,
+      "unemployment": 3.048
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2007,
+      "consumption_growth": -2.219,
+      "inflation": 1.555,
+      "interest_rate": 1.847,
+      "gdp_growth": 1.504,
+      "unemployment": 3.7
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2008,
+      "consumption_growth": -2.716,
+      "inflation": 2.086,
+      "interest_rate": 2.918,
+      "gdp_growth": 0.529,
+      "unemployment": 3.397
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2009,
+      "consumption_growth": -4.073,
+      "inflation": 2.736,
+      "interest_rate": 3.029,
+      "gdp_growth": -0.255,
+      "unemployment": 3.791
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2010,
+      "consumption_growth": -3.996,
+      "inflation": 2.166,
+      "interest_rate": 2.995,
+      "gdp_growth": 3.439,
+      "unemployment": 3.66
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2011,
+      "consumption_growth": -4.42,
+      "inflation": 3.574,
+      "interest_rate": 3.691,
+      "gdp_growth": 0.636,
+      "unemployment": 3.519
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2012,
+      "consumption_growth": -3.865,
+      "inflation": 2.364,
+      "interest_rate": 3.616,
+      "gdp_growth": 2.527,
+      "unemployment": 3.619
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2013,
+      "consumption_growth": -2.799,
+      "inflation": 1.875,
+      "interest_rate": 3.733,
+      "gdp_growth": 0.466,
+      "unemployment": 4.331
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2014,
+      "consumption_growth": -1.937,
+      "inflation": 0.82,
+      "interest_rate": 2.994,
+      "gdp_growth": -0.861,
+      "unemployment": 4.38
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2015,
+      "consumption_growth": -0.549,
+      "inflation": 0.62,
+      "interest_rate": 2.569,
+      "gdp_growth": 1.221,
+      "unemployment": 3.655
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2016,
+      "consumption_growth": -1.338,
+      "inflation": 0.295,
+      "interest_rate": 2.263,
+      "gdp_growth": -1.356,
+      "unemployment": 4.054
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2017,
+      "consumption_growth": -1.052,
+      "inflation": 0.64,
+      "interest_rate": 2.339,
+      "gdp_growth": 0.855,
+      "unemployment": 4.329
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2018,
+      "consumption_growth": -1.682,
+      "inflation": 1.454,
+      "interest_rate": 2.55,
+      "gdp_growth": 3.774,
+      "unemployment": 3.662
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2019,
+      "consumption_growth": -1.429,
+      "inflation": 0.598,
+      "interest_rate": 2.791,
+      "gdp_growth": 2.853,
+      "unemployment": 2.958
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2020,
+      "consumption_growth": -2.498,
+      "inflation": 1.052,
+      "interest_rate": 2.711,
+      "gdp_growth": -1.281,
+      "unemployment": 3.106
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2021,
+      "consumption_growth": -3.884,
+      "inflation": 3.083,
+      "interest_rate": 3.244,
+      "gdp_growth": 2.41,
+      "unemployment": 2.621
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2022,
+      "consumption_growth": -3.622,
+      "inflation": 3.321,
+      "interest_rate": 3.283,
+      "gdp_growth": -2.818,
+      "unemployment": 3.176
+    },
+    {
+      "country_code": "JPN",
+      "country": "Japan",
+      "year": 2023,
+      "consumption_growth": -3.438,
+      "inflation": 1.998,
+      "interest_rate": 2.986,
+      "gdp_growth": -3.349,
+      "unemployment": 3.693
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2000,
+      "consumption_growth": -1.672,
+      "inflation": 1.655,
+      "interest_rate": 3.918,
+      "gdp_growth": 0.969,
+      "unemployment": 6.561
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2001,
+      "consumption_growth": -1.605,
+      "inflation": 1.942,
+      "interest_rate": 4.279,
+      "gdp_growth": 2.25,
+      "unemployment": 5.783
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2002,
+      "consumption_growth": -2.984,
+      "inflation": 2.701,
+      "interest_rate": 4.568,
+      "gdp_growth": 0.545,
+      "unemployment": 5.536
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2003,
+      "consumption_growth": -2.664,
+      "inflation": 3.11,
+      "interest_rate": 4.205,
+      "gdp_growth": 6.174,
+      "unemployment": 4.815
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2004,
+      "consumption_growth": -3.797,
+      "inflation": 2.972,
+      "interest_rate": 5.127,
+      "gdp_growth": 0.78,
+      "unemployment": 4.633
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2005,
+      "consumption_growth": -2.645,
+      "inflation": 1.622,
+      "interest_rate": 5.27,
+      "gdp_growth": 3.528,
+      "unemployment": 4.537
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2006,
+      "consumption_growth": -3.074,
+      "inflation": 2.216,
+      "interest_rate": 5.446,
+      "gdp_growth": 0.264,
+      "unemployment": 5.077
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2007,
+      "consumption_growth": -1.766,
+      "inflation": 1.386,
+      "interest_rate": 4.805,
+      "gdp_growth": 2.032,
+      "unemployment": 5.496
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2008,
+      "consumption_growth": -1.045,
+      "inflation": 0.692,
+      "interest_rate": 3.839,
+      "gdp_growth": 0.966,
+      "unemployment": 5.014
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2009,
+      "consumption_growth": -1.586,
+      "inflation": 0.781,
+      "interest_rate": 3.128,
+      "gdp_growth": 0.249,
+      "unemployment": 4.806
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2010,
+      "consumption_growth": -2.546,
+      "inflation": 2.554,
+      "interest_rate": 3.75,
+      "gdp_growth": 3.598,
+      "unemployment": 4.447
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2011,
+      "consumption_growth": -2.302,
+      "inflation": 1.884,
+      "interest_rate": 3.639,
+      "gdp_growth": 3.518,
+      "unemployment": 4.943
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2012,
+      "consumption_growth": -0.292,
+      "inflation": 0.575,
+      "interest_rate": 3.603,
+      "gdp_growth": 0.793,
+      "unemployment": 5.26
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2013,
+      "consumption_growth": -1.529,
+      "inflation": 1.398,
+      "interest_rate": 3.422,
+      "gdp_growth": 2.075,
+      "unemployment": 4.859
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2014,
+      "consumption_growth": -0.097,
+      "inflation": 1.08,
+      "interest_rate": 2.648,
+      "gdp_growth": -1.642,
+      "unemployment": 5.116
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2015,
+      "consumption_growth": -0.765,
+      "inflation": 1.377,
+      "interest_rate": 3.484,
+      "gdp_growth": 0.985,
+      "unemployment": 5.298
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2016,
+      "consumption_growth": -2.069,
+      "inflation": 2.152,
+      "interest_rate": 3.387,
+      "gdp_growth": 2.087,
+      "unemployment": 5.302
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2017,
+      "consumption_growth": -2.071,
+      "inflation": 2.214,
+      "interest_rate": 3.432,
+      "gdp_growth": 0.563,
+      "unemployment": 5.452
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2018,
+      "consumption_growth": -3.183,
+      "inflation": 2.982,
+      "interest_rate": 4.092,
+      "gdp_growth": 2.737,
+      "unemployment": 5.42
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2019,
+      "consumption_growth": -3.347,
+      "inflation": 3.279,
+      "interest_rate": 5.354,
+      "gdp_growth": 0.442,
+      "unemployment": 5.577
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2020,
+      "consumption_growth": -5.818,
+      "inflation": 3.891,
+      "interest_rate": 5.887,
+      "gdp_growth": 4.112,
+      "unemployment": 5.22
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2021,
+      "consumption_growth": -7.072,
+      "inflation": 6.35,
+      "interest_rate": 7.057,
+      "gdp_growth": 2.485,
+      "unemployment": 4.656
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2022,
+      "consumption_growth": -8.738,
+      "inflation": 8.099,
+      "interest_rate": 7.629,
+      "gdp_growth": 3.507,
+      "unemployment": 4.533
+    },
+    {
+      "country_code": "CAN",
+      "country": "Canada",
+      "year": 2023,
+      "consumption_growth": -8.154,
+      "inflation": 6.83,
+      "interest_rate": 7.839,
+      "gdp_growth": 3.901,
+      "unemployment": 4.191
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2000,
+      "consumption_growth": -3.154,
+      "inflation": 2.448,
+      "interest_rate": 5.214,
+      "gdp_growth": 2.104,
+      "unemployment": 4.503
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2001,
+      "consumption_growth": -3.561,
+      "inflation": 3.289,
+      "interest_rate": 4.965,
+      "gdp_growth": -0.251,
+      "unemployment": 4.376
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2002,
+      "consumption_growth": -4.426,
+      "inflation": 4.66,
+      "interest_rate": 5.22,
+      "gdp_growth": 1.206,
+      "unemployment": 4.575
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2003,
+      "consumption_growth": -4.611,
+      "inflation": 3.862,
+      "interest_rate": 5.754,
+      "gdp_growth": 3.58,
+      "unemployment": 4.093
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2004,
+      "consumption_growth": -4.522,
+      "inflation": 3.835,
+      "interest_rate": 5.702,
+      "gdp_growth": 0.351,
+      "unemployment": 3.903
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2005,
+      "consumption_growth": -3.296,
+      "inflation": 3.527,
+      "interest_rate": 5.881,
+      "gdp_growth": 2.802,
+      "unemployment": 4.635
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2006,
+      "consumption_growth": -3.285,
+      "inflation": 2.898,
+      "interest_rate": 5.808,
+      "gdp_growth": 4.164,
+      "unemployment": 3.841
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2007,
+      "consumption_growth": -4.976,
+      "inflation": 3.704,
+      "interest_rate": 6.067,
+      "gdp_growth": -0.025,
+      "unemployment": 3.368
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2008,
+      "consumption_growth": -5.011,
+      "inflation": 3.413,
+      "interest_rate": 5.76,
+      "gdp_growth": -0.118,
+      "unemployment": 3.325
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2009,
+      "consumption_growth": -4.775,
+      "inflation": 3.728,
+      "interest_rate": 5.403,
+      "gdp_growth": -0.909,
+      "unemployment": 3.465
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2010,
+      "consumption_growth": -4.441,
+      "inflation": 4.162,
+      "interest_rate": 5.535,
+      "gdp_growth": 0.911,
+      "unemployment": 3.693
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2011,
+      "consumption_growth": -4.535,
+      "inflation": 3.797,
+      "interest_rate": 5.939,
+      "gdp_growth": 3.732,
+      "unemployment": 3.49
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2012,
+      "consumption_growth": -3.895,
+      "inflation": 3.099,
+      "interest_rate": 5.965,
+      "gdp_growth": 1.506,
+      "unemployment": 3.913
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2013,
+      "consumption_growth": -2.902,
+      "inflation": 2.453,
+      "interest_rate": 5.218,
+      "gdp_growth": 0.235,
+      "unemployment": 4.036
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2014,
+      "consumption_growth": -2.492,
+      "inflation": 2.35,
+      "interest_rate": 4.987,
+      "gdp_growth": 3.262,
+      "unemployment": 3.326
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2015,
+      "consumption_growth": -3.046,
+      "inflation": 3.028,
+      "interest_rate": 5.682,
+      "gdp_growth": 5.54,
+      "unemployment": 3.672
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2016,
+      "consumption_growth": -3.464,
+      "inflation": 2.855,
+      "interest_rate": 5.777,
+      "gdp_growth": 2.053,
+      "unemployment": 4.198
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2017,
+      "consumption_growth": -3.154,
+      "inflation": 2.266,
+      "interest_rate": 5.742,
+      "gdp_growth": 3.841,
+      "unemployment": 3.865
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2018,
+      "consumption_growth": -4.294,
+      "inflation": 3.103,
+      "interest_rate": 6.544,
+      "gdp_growth": -1.5,
+      "unemployment": 4.529
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2019,
+      "consumption_growth": -3.945,
+      "inflation": 3.273,
+      "interest_rate": 6.255,
+      "gdp_growth": 1.778,
+      "unemployment": 4.913
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2020,
+      "consumption_growth": -4.608,
+      "inflation": 3.558,
+      "interest_rate": 6.231,
+      "gdp_growth": 2.764,
+      "unemployment": 4.047
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2021,
+      "consumption_growth": -4.959,
+      "inflation": 4.689,
+      "interest_rate": 6.89,
+      "gdp_growth": 2.491,
+      "unemployment": 4.177
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2022,
+      "consumption_growth": -7.045,
+      "inflation": 6.082,
+      "interest_rate": 7.121,
+      "gdp_growth": 1.633,
+      "unemployment": 4.082
+    },
+    {
+      "country_code": "AUS",
+      "country": "Australia",
+      "year": 2023,
+      "consumption_growth": -5.098,
+      "inflation": 4.307,
+      "interest_rate": 7.112,
+      "gdp_growth": 2.453,
+      "unemployment": 3.664
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2000,
+      "consumption_growth": -10.767,
+      "inflation": 6.077,
+      "interest_rate": 12.225,
+      "gdp_growth": 0.882,
+      "unemployment": 9.601
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2001,
+      "consumption_growth": -10.635,
+      "inflation": 5.582,
+      "interest_rate": 11.805,
+      "gdp_growth": 1.239,
+      "unemployment": 9.564
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2002,
+      "consumption_growth": -10.634,
+      "inflation": 6.215,
+      "interest_rate": 12.42,
+      "gdp_growth": 2.124,
+      "unemployment": 9.262
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2003,
+      "consumption_growth": -11.095,
+      "inflation": 6.679,
+      "interest_rate": 12.237,
+      "gdp_growth": 2.145,
+      "unemployment": 9.011
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2004,
+      "consumption_growth": -11.558,
+      "inflation": 6.867,
+      "interest_rate": 12.009,
+      "gdp_growth": 5.506,
+      "unemployment": 7.573
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2005,
+      "consumption_growth": -12.755,
+      "inflation": 7.64,
+      "interest_rate": 12.903,
+      "gdp_growth": 4.404,
+      "unemployment": 7.202
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2006,
+      "consumption_growth": -12.151,
+      "inflation": 7.021,
+      "interest_rate": 12.553,
+      "gdp_growth": 0.425,
+      "unemployment": 7.686
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2007,
+      "consumption_growth": -12.238,
+      "inflation": 6.792,
+      "interest_rate": 12.539,
+      "gdp_growth": 2.828,
+      "unemployment": 8.133
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2008,
+      "consumption_growth": -11.521,
+      "inflation": 6.311,
+      "interest_rate": 12.293,
+      "gdp_growth": 0.382,
+      "unemployment": 7.788
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2009,
+      "consumption_growth": -12.915,
+      "inflation": 6.318,
+      "interest_rate": 12.28,
+      "gdp_growth": 0.149,
+      "unemployment": 8.095
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2010,
+      "consumption_growth": -9.774,
+      "inflation": 5.962,
+      "interest_rate": 11.77,
+      "gdp_growth": 1.629,
+      "unemployment": 8.163
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2011,
+      "consumption_growth": -10.037,
+      "inflation": 5.919,
+      "interest_rate": 11.361,
+      "gdp_growth": 3.75,
+      "unemployment": 7.771
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2012,
+      "consumption_growth": -10.804,
+      "inflation": 6.628,
+      "interest_rate": 11.556,
+      "gdp_growth": -0.456,
+      "unemployment": 8.176
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2013,
+      "consumption_growth": -10.183,
+      "inflation": 5.691,
+      "interest_rate": 11.084,
+      "gdp_growth": 0.192,
+      "unemployment": 8.934
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2014,
+      "consumption_growth": -9.455,
+      "inflation": 5.067,
+      "interest_rate": 10.764,
+      "gdp_growth": 2.875,
+      "unemployment": 8.259
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2015,
+      "consumption_growth": -8.689,
+      "inflation": 5.551,
+      "interest_rate": 10.422,
+      "gdp_growth": 1.818,
+      "unemployment": 8.418
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2016,
+      "consumption_growth": -8.527,
+      "inflation": 5.113,
+      "interest_rate": 10.417,
+      "gdp_growth": 1.285,
+      "unemployment": 8.944
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2017,
+      "consumption_growth": -8.014,
+      "inflation": 4.96,
+      "interest_rate": 10.613,
+      "gdp_growth": -0.101,
+      "unemployment": 8.378
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2018,
+      "consumption_growth": -8.852,
+      "inflation": 4.977,
+      "interest_rate": 10.974,
+      "gdp_growth": 2.449,
+      "unemployment": 8.76
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2019,
+      "consumption_growth": -10.938,
+      "inflation": 6.357,
+      "interest_rate": 11.089,
+      "gdp_growth": 0.046,
+      "unemployment": 8.209
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2020,
+      "consumption_growth": -10.622,
+      "inflation": 5.63,
+      "interest_rate": 10.555,
+      "gdp_growth": -3.223,
+      "unemployment": 8.766
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2021,
+      "consumption_growth": -11.854,
+      "inflation": 8.363,
+      "interest_rate": 11.268,
+      "gdp_growth": 2.022,
+      "unemployment": 8.175
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2022,
+      "consumption_growth": -12.936,
+      "inflation": 8.39,
+      "interest_rate": 13.104,
+      "gdp_growth": 1.262,
+      "unemployment": 9.015
+    },
+    {
+      "country_code": "BRA",
+      "country": "Brazil",
+      "year": 2023,
+      "consumption_growth": -14.004,
+      "inflation": 8.093,
+      "interest_rate": 14.084,
+      "gdp_growth": 2.168,
+      "unemployment": 8.877
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2000,
+      "consumption_growth": -6.519,
+      "inflation": 4.65,
+      "interest_rate": 7.087,
+      "gdp_growth": -0.15,
+      "unemployment": 4.079
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2001,
+      "consumption_growth": -5.545,
+      "inflation": 4.386,
+      "interest_rate": 7.121,
+      "gdp_growth": 3.077,
+      "unemployment": 3.337
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2002,
+      "consumption_growth": -5.695,
+      "inflation": 4.337,
+      "interest_rate": 7.339,
+      "gdp_growth": 4.041,
+      "unemployment": 2.844
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2003,
+      "consumption_growth": -6.083,
+      "inflation": 4.675,
+      "interest_rate": 7.278,
+      "gdp_growth": 3.066,
+      "unemployment": 2.992
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2004,
+      "consumption_growth": -8.552,
+      "inflation": 5.872,
+      "interest_rate": 8.487,
+      "gdp_growth": 2.484,
+      "unemployment": 2.554
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2005,
+      "consumption_growth": -7.45,
+      "inflation": 4.998,
+      "interest_rate": 7.942,
+      "gdp_growth": 0.156,
+      "unemployment": 2.534
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2006,
+      "consumption_growth": -6.299,
+      "inflation": 4.689,
+      "interest_rate": 7.847,
+      "gdp_growth": 0.588,
+      "unemployment": 3.199
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2007,
+      "consumption_growth": -5.636,
+      "inflation": 3.616,
+      "interest_rate": 7.47,
+      "gdp_growth": -0.163,
+      "unemployment": 2.496
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2008,
+      "consumption_growth": -6.375,
+      "inflation": 3.454,
+      "interest_rate": 7.713,
+      "gdp_growth": 0.137,
+      "unemployment": 2.844
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2009,
+      "consumption_growth": -6.254,
+      "inflation": 3.59,
+      "interest_rate": 7.363,
+      "gdp_growth": 0.127,
+      "unemployment": 2.834
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2010,
+      "consumption_growth": -6.2,
+      "inflation": 4.14,
+      "interest_rate": 7.237,
+      "gdp_growth": -0.31,
+      "unemployment": 3.013
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2011,
+      "consumption_growth": -6.193,
+      "inflation": 4.244,
+      "interest_rate": 8.023,
+      "gdp_growth": 1.509,
+      "unemployment": 2.758
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2012,
+      "consumption_growth": -7.009,
+      "inflation": 4.732,
+      "interest_rate": 8.168,
+      "gdp_growth": 2.207,
+      "unemployment": 3.119
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2013,
+      "consumption_growth": -6.837,
+      "inflation": 4.14,
+      "interest_rate": 8.423,
+      "gdp_growth": -1.437,
+      "unemployment": 3.079
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2014,
+      "consumption_growth": -6.201,
+      "inflation": 3.481,
+      "interest_rate": 7.266,
+      "gdp_growth": 0.6,
+      "unemployment": 3.421
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2015,
+      "consumption_growth": -3.615,
+      "inflation": 1.17,
+      "interest_rate": 6.243,
+      "gdp_growth": 1.247,
+      "unemployment": 2.935
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2016,
+      "consumption_growth": -2.64,
+      "inflation": 1.523,
+      "interest_rate": 5.355,
+      "gdp_growth": 3.691,
+      "unemployment": 2.418
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2017,
+      "consumption_growth": -3.116,
+      "inflation": 2.225,
+      "interest_rate": 5.317,
+      "gdp_growth": 2.083,
+      "unemployment": 2.516
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2018,
+      "consumption_growth": -4.41,
+      "inflation": 3.354,
+      "interest_rate": 5.951,
+      "gdp_growth": 2.467,
+      "unemployment": 2.099
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2019,
+      "consumption_growth": -4.718,
+      "inflation": 3.336,
+      "interest_rate": 6.875,
+      "gdp_growth": -0.871,
+      "unemployment": 2.942
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2020,
+      "consumption_growth": -4.98,
+      "inflation": 3.36,
+      "interest_rate": 7.26,
+      "gdp_growth": 3.149,
+      "unemployment": 2.838
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2021,
+      "consumption_growth": -7.759,
+      "inflation": 6.325,
+      "interest_rate": 7.288,
+      "gdp_growth": -0.081,
+      "unemployment": 3.156
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2022,
+      "consumption_growth": -9.801,
+      "inflation": 8.245,
+      "interest_rate": 8.618,
+      "gdp_growth": 0.728,
+      "unemployment": 3.443
+    },
+    {
+      "country_code": "MEX",
+      "country": "Mexico",
+      "year": 2023,
+      "consumption_growth": -9.583,
+      "inflation": 7.198,
+      "interest_rate": 9.238,
+      "gdp_growth": 3.981,
+      "unemployment": 3.22
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2000,
+      "consumption_growth": -4.943,
+      "inflation": 7.0,
+      "interest_rate": 8.167,
+      "gdp_growth": 3.801,
+      "unemployment": 4.583
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2001,
+      "consumption_growth": -3.745,
+      "inflation": 5.419,
+      "interest_rate": 8.304,
+      "gdp_growth": 9.397,
+      "unemployment": 4.282
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2002,
+      "consumption_growth": -3.039,
+      "inflation": 5.198,
+      "interest_rate": 8.393,
+      "gdp_growth": 8.456,
+      "unemployment": 3.755
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2003,
+      "consumption_growth": -4.303,
+      "inflation": 6.06,
+      "interest_rate": 8.429,
+      "gdp_growth": 7.899,
+      "unemployment": 3.634
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2004,
+      "consumption_growth": -4.717,
+      "inflation": 6.6,
+      "interest_rate": 9.009,
+      "gdp_growth": 7.246,
+      "unemployment": 3.272
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2005,
+      "consumption_growth": -4.177,
+      "inflation": 5.593,
+      "interest_rate": 8.613,
+      "gdp_growth": 5.92,
+      "unemployment": 2.809
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2006,
+      "consumption_growth": -3.869,
+      "inflation": 5.296,
+      "interest_rate": 9.044,
+      "gdp_growth": 6.83,
+      "unemployment": 2.102
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2007,
+      "consumption_growth": -3.837,
+      "inflation": 5.618,
+      "interest_rate": 9.218,
+      "gdp_growth": 6.262,
+      "unemployment": 1.937
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2008,
+      "consumption_growth": -4.982,
+      "inflation": 5.14,
+      "interest_rate": 8.848,
+      "gdp_growth": 5.996,
+      "unemployment": 2.465
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2009,
+      "consumption_growth": -4.983,
+      "inflation": 5.541,
+      "interest_rate": 9.393,
+      "gdp_growth": 3.575,
+      "unemployment": 2.38
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2010,
+      "consumption_growth": -4.102,
+      "inflation": 5.526,
+      "interest_rate": 8.789,
+      "gdp_growth": 4.271,
+      "unemployment": 2.266
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2011,
+      "consumption_growth": -3.782,
+      "inflation": 5.656,
+      "interest_rate": 8.664,
+      "gdp_growth": 3.96,
+      "unemployment": 2.038
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2012,
+      "consumption_growth": -3.332,
+      "inflation": 5.405,
+      "interest_rate": 8.186,
+      "gdp_growth": 6.992,
+      "unemployment": 1.594
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2013,
+      "consumption_growth": -2.096,
+      "inflation": 4.891,
+      "interest_rate": 7.92,
+      "gdp_growth": 7.942,
+      "unemployment": 1.611
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2014,
+      "consumption_growth": -2.23,
+      "inflation": 4.335,
+      "interest_rate": 7.629,
+      "gdp_growth": 7.764,
+      "unemployment": 1.544
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2015,
+      "consumption_growth": -2.435,
+      "inflation": 4.573,
+      "interest_rate": 7.316,
+      "gdp_growth": 7.88,
+      "unemployment": 2.222
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2016,
+      "consumption_growth": -0.543,
+      "inflation": 3.808,
+      "interest_rate": 6.735,
+      "gdp_growth": 7.6,
+      "unemployment": 1.588
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2017,
+      "consumption_growth": -1.591,
+      "inflation": 4.203,
+      "interest_rate": 7.44,
+      "gdp_growth": 5.388,
+      "unemployment": 1.747
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2018,
+      "consumption_growth": -3.661,
+      "inflation": 4.873,
+      "interest_rate": 8.017,
+      "gdp_growth": 5.668,
+      "unemployment": 2.512
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2019,
+      "consumption_growth": -4.177,
+      "inflation": 5.946,
+      "interest_rate": 8.256,
+      "gdp_growth": 8.94,
+      "unemployment": 2.943
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2020,
+      "consumption_growth": -4.191,
+      "inflation": 5.422,
+      "interest_rate": 8.432,
+      "gdp_growth": 2.158,
+      "unemployment": 2.561
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2021,
+      "consumption_growth": -5.244,
+      "inflation": 7.011,
+      "interest_rate": 9.184,
+      "gdp_growth": 7.524,
+      "unemployment": 2.094
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2022,
+      "consumption_growth": -6.801,
+      "inflation": 8.506,
+      "interest_rate": 10.023,
+      "gdp_growth": 5.439,
+      "unemployment": 2.233
+    },
+    {
+      "country_code": "IND",
+      "country": "India",
+      "year": 2023,
+      "consumption_growth": -6.653,
+      "inflation": 7.708,
+      "interest_rate": 10.215,
+      "gdp_growth": 4.375,
+      "unemployment": 2.011
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2000,
+      "consumption_growth": 3.073,
+      "inflation": 2.366,
+      "interest_rate": 4.24,
+      "gdp_growth": 6.906,
+      "unemployment": 4.004
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2001,
+      "consumption_growth": 3.363,
+      "inflation": 2.242,
+      "interest_rate": 4.02,
+      "gdp_growth": 7.407,
+      "unemployment": 3.822
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2002,
+      "consumption_growth": 2.807,
+      "inflation": 1.987,
+      "interest_rate": 3.349,
+      "gdp_growth": 6.169,
+      "unemployment": 3.601
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2003,
+      "consumption_growth": 2.674,
+      "inflation": 2.972,
+      "interest_rate": 3.922,
+      "gdp_growth": 8.708,
+      "unemployment": 2.613
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2004,
+      "consumption_growth": 3.668,
+      "inflation": 2.858,
+      "interest_rate": 3.728,
+      "gdp_growth": 8.69,
+      "unemployment": 1.834
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2005,
+      "consumption_growth": 2.517,
+      "inflation": 3.395,
+      "interest_rate": 3.808,
+      "gdp_growth": 5.974,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2006,
+      "consumption_growth": 3.366,
+      "inflation": 2.244,
+      "interest_rate": 3.614,
+      "gdp_growth": 6.229,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2007,
+      "consumption_growth": 2.985,
+      "inflation": 2.649,
+      "interest_rate": 3.717,
+      "gdp_growth": 4.822,
+      "unemployment": 2.07
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2008,
+      "consumption_growth": 1.596,
+      "inflation": 2.585,
+      "interest_rate": 4.146,
+      "gdp_growth": 5.536,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2009,
+      "consumption_growth": 0.822,
+      "inflation": 3.071,
+      "interest_rate": 5.145,
+      "gdp_growth": 3.352,
+      "unemployment": 2.302
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2010,
+      "consumption_growth": 0.946,
+      "inflation": 3.852,
+      "interest_rate": 5.214,
+      "gdp_growth": 6.75,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2011,
+      "consumption_growth": -0.058,
+      "inflation": 4.207,
+      "interest_rate": 5.88,
+      "gdp_growth": 6.694,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2012,
+      "consumption_growth": 1.033,
+      "inflation": 4.092,
+      "interest_rate": 6.19,
+      "gdp_growth": 7.889,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2013,
+      "consumption_growth": 1.864,
+      "inflation": 2.845,
+      "interest_rate": 5.416,
+      "gdp_growth": 3.777,
+      "unemployment": 1.535
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2014,
+      "consumption_growth": 3.219,
+      "inflation": 2.128,
+      "interest_rate": 4.988,
+      "gdp_growth": 9.428,
+      "unemployment": 1.621
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2015,
+      "consumption_growth": 4.33,
+      "inflation": 1.038,
+      "interest_rate": 4.166,
+      "gdp_growth": 5.763,
+      "unemployment": 1.536
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2016,
+      "consumption_growth": 4.543,
+      "inflation": 1.259,
+      "interest_rate": 3.603,
+      "gdp_growth": 3.842,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2017,
+      "consumption_growth": 3.443,
+      "inflation": 1.732,
+      "interest_rate": 4.086,
+      "gdp_growth": 6.816,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2018,
+      "consumption_growth": 3.642,
+      "inflation": 1.375,
+      "interest_rate": 4.026,
+      "gdp_growth": 4.821,
+      "unemployment": 2.126
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2019,
+      "consumption_growth": 4.517,
+      "inflation": 1.552,
+      "interest_rate": 3.614,
+      "gdp_growth": 8.024,
+      "unemployment": 2.042
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2020,
+      "consumption_growth": 2.07,
+      "inflation": 2.827,
+      "interest_rate": 3.659,
+      "gdp_growth": 7.095,
+      "unemployment": 2.191
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2021,
+      "consumption_growth": 0.168,
+      "inflation": 5.263,
+      "interest_rate": 5.178,
+      "gdp_growth": 2.976,
+      "unemployment": 2.181
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2022,
+      "consumption_growth": -1.055,
+      "inflation": 6.395,
+      "interest_rate": 5.809,
+      "gdp_growth": 5.348,
+      "unemployment": 2.129
+    },
+    {
+      "country_code": "CHN",
+      "country": "China",
+      "year": 2023,
+      "consumption_growth": -0.48,
+      "inflation": 5.486,
+      "interest_rate": 6.381,
+      "gdp_growth": 6.409,
+      "unemployment": 1.82
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2000,
+      "consumption_growth": -0.635,
+      "inflation": 2.251,
+      "interest_rate": 4.526,
+      "gdp_growth": -0.314,
+      "unemployment": 3.429
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2001,
+      "consumption_growth": -0.932,
+      "inflation": 2.02,
+      "interest_rate": 3.713,
+      "gdp_growth": 2.022,
+      "unemployment": 3.01
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2002,
+      "consumption_growth": -1.549,
+      "inflation": 2.662,
+      "interest_rate": 3.368,
+      "gdp_growth": 2.035,
+      "unemployment": 3.264
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2003,
+      "consumption_growth": -0.472,
+      "inflation": 1.613,
+      "interest_rate": 3.647,
+      "gdp_growth": 1.874,
+      "unemployment": 3.325
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2004,
+      "consumption_growth": -1.052,
+      "inflation": 1.363,
+      "interest_rate": 3.102,
+      "gdp_growth": 1.475,
+      "unemployment": 3.103
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2005,
+      "consumption_growth": 0.306,
+      "inflation": 0.975,
+      "interest_rate": 2.738,
+      "gdp_growth": 2.936,
+      "unemployment": 2.851
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2006,
+      "consumption_growth": -0.568,
+      "inflation": 1.423,
+      "interest_rate": 3.295,
+      "gdp_growth": 3.018,
+      "unemployment": 2.677
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2007,
+      "consumption_growth": -0.217,
+      "inflation": 1.584,
+      "interest_rate": 3.354,
+      "gdp_growth": 6.218,
+      "unemployment": 1.955
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2008,
+      "consumption_growth": 0.122,
+      "inflation": 1.536,
+      "interest_rate": 2.946,
+      "gdp_growth": 1.894,
+      "unemployment": 1.956
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2009,
+      "consumption_growth": -0.703,
+      "inflation": 0.405,
+      "interest_rate": 3.416,
+      "gdp_growth": 1.25,
+      "unemployment": 2.007
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2010,
+      "consumption_growth": 0.934,
+      "inflation": 0.79,
+      "interest_rate": 2.639,
+      "gdp_growth": 5.38,
+      "unemployment": 2.065
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2011,
+      "consumption_growth": 0.817,
+      "inflation": 1.491,
+      "interest_rate": 2.681,
+      "gdp_growth": 3.17,
+      "unemployment": 1.947
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2012,
+      "consumption_growth": -0.316,
+      "inflation": 1.762,
+      "interest_rate": 3.242,
+      "gdp_growth": 3.95,
+      "unemployment": 1.573
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2013,
+      "consumption_growth": 0.23,
+      "inflation": 1.305,
+      "interest_rate": 2.699,
+      "gdp_growth": 3.252,
+      "unemployment": 1.66
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2014,
+      "consumption_growth": 0.494,
+      "inflation": 0.228,
+      "interest_rate": 3.099,
+      "gdp_growth": 0.682,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2015,
+      "consumption_growth": 1.386,
+      "inflation": -0.028,
+      "interest_rate": 2.845,
+      "gdp_growth": 5.934,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2016,
+      "consumption_growth": -0.061,
+      "inflation": 1.151,
+      "interest_rate": 2.668,
+      "gdp_growth": 3.595,
+      "unemployment": 1.5
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2017,
+      "consumption_growth": 0.241,
+      "inflation": 1.298,
+      "interest_rate": 3.368,
+      "gdp_growth": -0.116,
+      "unemployment": 1.998
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2018,
+      "consumption_growth": -0.814,
+      "inflation": 2.236,
+      "interest_rate": 3.197,
+      "gdp_growth": 5.233,
+      "unemployment": 2.098
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2019,
+      "consumption_growth": -0.783,
+      "inflation": 2.161,
+      "interest_rate": 3.637,
+      "gdp_growth": 2.531,
+      "unemployment": 1.759
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2020,
+      "consumption_growth": -2.597,
+      "inflation": 2.362,
+      "interest_rate": 3.419,
+      "gdp_growth": 0.538,
+      "unemployment": 2.118
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2021,
+      "consumption_growth": -2.84,
+      "inflation": 4.5,
+      "interest_rate": 4.228,
+      "gdp_growth": 2.929,
+      "unemployment": 2.593
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2022,
+      "consumption_growth": -4.688,
+      "inflation": 6.066,
+      "interest_rate": 5.239,
+      "gdp_growth": 3.605,
+      "unemployment": 2.648
+    },
+    {
+      "country_code": "KOR",
+      "country": "Korea, Rep.",
+      "year": 2023,
+      "consumption_growth": -3.871,
+      "inflation": 5.119,
+      "interest_rate": 5.356,
+      "gdp_growth": 3.943,
+      "unemployment": 2.888
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2000,
+      "consumption_growth": -4.106,
+      "inflation": 5.172,
+      "interest_rate": 8.332,
+      "gdp_growth": 4.583,
+      "unemployment": 5.03
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2001,
+      "consumption_growth": -4.765,
+      "inflation": 4.789,
+      "interest_rate": 8.163,
+      "gdp_growth": 3.783,
+      "unemployment": 4.341
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2002,
+      "consumption_growth": -5.076,
+      "inflation": 5.031,
+      "interest_rate": 7.78,
+      "gdp_growth": 4.641,
+      "unemployment": 4.094
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2003,
+      "consumption_growth": -5.021,
+      "inflation": 5.266,
+      "interest_rate": 8.196,
+      "gdp_growth": 6.906,
+      "unemployment": 3.683
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2004,
+      "consumption_growth": -5.002,
+      "inflation": 4.926,
+      "interest_rate": 8.556,
+      "gdp_growth": 6.503,
+      "unemployment": 3.298
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2005,
+      "consumption_growth": -3.453,
+      "inflation": 4.631,
+      "interest_rate": 7.766,
+      "gdp_growth": 2.743,
+      "unemployment": 3.549
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2006,
+      "consumption_growth": -3.672,
+      "inflation": 4.65,
+      "interest_rate": 8.28,
+      "gdp_growth": 8.336,
+      "unemployment": 3.341
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2007,
+      "consumption_growth": -4.854,
+      "inflation": 4.531,
+      "interest_rate": 8.515,
+      "gdp_growth": 5.111,
+      "unemployment": 3.149
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2008,
+      "consumption_growth": -7.295,
+      "inflation": 5.69,
+      "interest_rate": 9.757,
+      "gdp_growth": 3.318,
+      "unemployment": 2.366
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2009,
+      "consumption_growth": -6.866,
+      "inflation": 5.736,
+      "interest_rate": 10.291,
+      "gdp_growth": 3.654,
+      "unemployment": 2.533
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2010,
+      "consumption_growth": -5.975,
+      "inflation": 5.418,
+      "interest_rate": 9.989,
+      "gdp_growth": 5.286,
+      "unemployment": 3.082
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2011,
+      "consumption_growth": -6.661,
+      "inflation": 5.806,
+      "interest_rate": 9.611,
+      "gdp_growth": 4.238,
+      "unemployment": 2.732
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2012,
+      "consumption_growth": -7.136,
+      "inflation": 5.818,
+      "interest_rate": 9.874,
+      "gdp_growth": 2.155,
+      "unemployment": 3.473
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2013,
+      "consumption_growth": -5.789,
+      "inflation": 5.655,
+      "interest_rate": 9.703,
+      "gdp_growth": 5.725,
+      "unemployment": 2.942
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2014,
+      "consumption_growth": -6.259,
+      "inflation": 5.376,
+      "interest_rate": 9.691,
+      "gdp_growth": 4.361,
+      "unemployment": 2.855
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2015,
+      "consumption_growth": -4.154,
+      "inflation": 3.699,
+      "interest_rate": 8.562,
+      "gdp_growth": 6.586,
+      "unemployment": 3.019
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2016,
+      "consumption_growth": -2.035,
+      "inflation": 3.182,
+      "interest_rate": 7.444,
+      "gdp_growth": 4.937,
+      "unemployment": 2.055
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2017,
+      "consumption_growth": -2.019,
+      "inflation": 3.339,
+      "interest_rate": 7.02,
+      "gdp_growth": 5.23,
+      "unemployment": 2.926
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2018,
+      "consumption_growth": -3.184,
+      "inflation": 4.098,
+      "interest_rate": 7.561,
+      "gdp_growth": 8.004,
+      "unemployment": 2.178
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2019,
+      "consumption_growth": -4.957,
+      "inflation": 4.658,
+      "interest_rate": 7.996,
+      "gdp_growth": 5.12,
+      "unemployment": 2.036
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2020,
+      "consumption_growth": -4.81,
+      "inflation": 4.49,
+      "interest_rate": 8.127,
+      "gdp_growth": 2.026,
+      "unemployment": 2.683
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2021,
+      "consumption_growth": -7.062,
+      "inflation": 6.929,
+      "interest_rate": 8.663,
+      "gdp_growth": 3.704,
+      "unemployment": 3.135
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2022,
+      "consumption_growth": -8.176,
+      "inflation": 8.628,
+      "interest_rate": 9.801,
+      "gdp_growth": 4.205,
+      "unemployment": 3.275
+    },
+    {
+      "country_code": "IDN",
+      "country": "Indonesia",
+      "year": 2023,
+      "consumption_growth": -6.67,
+      "inflation": 6.419,
+      "interest_rate": 9.163,
+      "gdp_growth": 5.609,
+      "unemployment": 3.233
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2000,
+      "consumption_growth": -5.996,
+      "inflation": 3.569,
+      "interest_rate": 8.679,
+      "gdp_growth": 2.942,
+      "unemployment": 24.456
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2001,
+      "consumption_growth": -6.886,
+      "inflation": 4.237,
+      "interest_rate": 7.895,
+      "gdp_growth": 4.746,
+      "unemployment": 23.326
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2002,
+      "consumption_growth": -6.147,
+      "inflation": 4.6,
+      "interest_rate": 7.911,
+      "gdp_growth": 5.971,
+      "unemployment": 22.842
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2003,
+      "consumption_growth": -8.036,
+      "inflation": 5.235,
+      "interest_rate": 7.426,
+      "gdp_growth": 0.714,
+      "unemployment": 23.352
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2004,
+      "consumption_growth": -7.511,
+      "inflation": 4.128,
+      "interest_rate": 8.157,
+      "gdp_growth": 2.484,
+      "unemployment": 22.635
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2005,
+      "consumption_growth": -8.081,
+      "inflation": 5.218,
+      "interest_rate": 8.243,
+      "gdp_growth": 1.453,
+      "unemployment": 22.479
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2006,
+      "consumption_growth": -7.041,
+      "inflation": 4.628,
+      "interest_rate": 8.103,
+      "gdp_growth": 0.952,
+      "unemployment": 23.418
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2007,
+      "consumption_growth": -6.766,
+      "inflation": 4.637,
+      "interest_rate": 8.24,
+      "gdp_growth": 8.899,
+      "unemployment": 23.047
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2008,
+      "consumption_growth": -9.087,
+      "inflation": 5.027,
+      "interest_rate": 8.782,
+      "gdp_growth": 2.979,
+      "unemployment": 23.223
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2009,
+      "consumption_growth": -8.197,
+      "inflation": 4.446,
+      "interest_rate": 8.83,
+      "gdp_growth": 1.969,
+      "unemployment": 22.512
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2010,
+      "consumption_growth": -8.133,
+      "inflation": 4.943,
+      "interest_rate": 8.956,
+      "gdp_growth": -0.528,
+      "unemployment": 23.486
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2011,
+      "consumption_growth": -7.568,
+      "inflation": 5.274,
+      "interest_rate": 9.041,
+      "gdp_growth": 1.315,
+      "unemployment": 23.291
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2012,
+      "consumption_growth": -9.82,
+      "inflation": 6.124,
+      "interest_rate": 10.464,
+      "gdp_growth": 4.81,
+      "unemployment": 22.985
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2013,
+      "consumption_growth": -10.871,
+      "inflation": 5.997,
+      "interest_rate": 11.1,
+      "gdp_growth": 0.905,
+      "unemployment": 22.784
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2014,
+      "consumption_growth": -9.641,
+      "inflation": 5.155,
+      "interest_rate": 10.388,
+      "gdp_growth": 1.603,
+      "unemployment": 22.503
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2015,
+      "consumption_growth": -8.933,
+      "inflation": 5.332,
+      "interest_rate": 10.41,
+      "gdp_growth": 0.584,
+      "unemployment": 22.741
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2016,
+      "consumption_growth": -8.624,
+      "inflation": 4.855,
+      "interest_rate": 9.616,
+      "gdp_growth": 3.399,
+      "unemployment": 22.629
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2017,
+      "consumption_growth": -8.771,
+      "inflation": 4.204,
+      "interest_rate": 9.367,
+      "gdp_growth": 1.141,
+      "unemployment": 23.166
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2018,
+      "consumption_growth": -7.486,
+      "inflation": 4.256,
+      "interest_rate": 9.326,
+      "gdp_growth": 1.21,
+      "unemployment": 22.841
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2019,
+      "consumption_growth": -8.278,
+      "inflation": 4.427,
+      "interest_rate": 8.919,
+      "gdp_growth": -1.806,
+      "unemployment": 23.699
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2020,
+      "consumption_growth": -7.614,
+      "inflation": 3.626,
+      "interest_rate": 7.728,
+      "gdp_growth": -1.059,
+      "unemployment": 24.432
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2021,
+      "consumption_growth": -6.933,
+      "inflation": 4.754,
+      "interest_rate": 7.208,
+      "gdp_growth": 1.322,
+      "unemployment": 24.327
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2022,
+      "consumption_growth": -8.894,
+      "inflation": 6.427,
+      "interest_rate": 8.299,
+      "gdp_growth": 0.062,
+      "unemployment": 24.435
+    },
+    {
+      "country_code": "ZAF",
+      "country": "South Africa",
+      "year": 2023,
+      "consumption_growth": -8.027,
+      "inflation": 5.328,
+      "interest_rate": 9.072,
+      "gdp_growth": -0.349,
+      "unemployment": 24.099
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2000,
+      "consumption_growth": -17.78,
+      "inflation": 12.817,
+      "interest_rate": 16.103,
+      "gdp_growth": 3.405,
+      "unemployment": 10.249
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2001,
+      "consumption_growth": -18.373,
+      "inflation": 13.443,
+      "interest_rate": 16.335,
+      "gdp_growth": 0.89,
+      "unemployment": 10.519
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2002,
+      "consumption_growth": -17.76,
+      "inflation": 13.043,
+      "interest_rate": 16.127,
+      "gdp_growth": 1.747,
+      "unemployment": 9.976
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2003,
+      "consumption_growth": -18.292,
+      "inflation": 13.649,
+      "interest_rate": 16.624,
+      "gdp_growth": 5.683,
+      "unemployment": 9.919
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2004,
+      "consumption_growth": -18.085,
+      "inflation": 13.059,
+      "interest_rate": 17.112,
+      "gdp_growth": 2.099,
+      "unemployment": 10.004
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2005,
+      "consumption_growth": -17.772,
+      "inflation": 12.575,
+      "interest_rate": 17.795,
+      "gdp_growth": 4.383,
+      "unemployment": 10.704
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2006,
+      "consumption_growth": -17.965,
+      "inflation": 12.661,
+      "interest_rate": 16.692,
+      "gdp_growth": 2.042,
+      "unemployment": 10.847
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2007,
+      "consumption_growth": -16.075,
+      "inflation": 10.914,
+      "interest_rate": 16.249,
+      "gdp_growth": 1.981,
+      "unemployment": 10.413
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2008,
+      "consumption_growth": -16.199,
+      "inflation": 10.936,
+      "interest_rate": 15.41,
+      "gdp_growth": 5.822,
+      "unemployment": 9.27
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2009,
+      "consumption_growth": -16.945,
+      "inflation": 11.047,
+      "interest_rate": 15.238,
+      "gdp_growth": 1.624,
+      "unemployment": 9.174
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2010,
+      "consumption_growth": -16.151,
+      "inflation": 11.77,
+      "interest_rate": 15.166,
+      "gdp_growth": 5.639,
+      "unemployment": 8.77
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2011,
+      "consumption_growth": -16.526,
+      "inflation": 11.576,
+      "interest_rate": 15.157,
+      "gdp_growth": 3.984,
+      "unemployment": 9.548
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2012,
+      "consumption_growth": -15.624,
+      "inflation": 11.625,
+      "interest_rate": 14.939,
+      "gdp_growth": 5.308,
+      "unemployment": 9.489
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2013,
+      "consumption_growth": -15.493,
+      "inflation": 11.386,
+      "interest_rate": 14.415,
+      "gdp_growth": 5.741,
+      "unemployment": 9.381
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2014,
+      "consumption_growth": -14.923,
+      "inflation": 11.253,
+      "interest_rate": 14.31,
+      "gdp_growth": 4.832,
+      "unemployment": 9.171
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2015,
+      "consumption_growth": -14.929,
+      "inflation": 11.128,
+      "interest_rate": 14.055,
+      "gdp_growth": 4.875,
+      "unemployment": 8.314
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2016,
+      "consumption_growth": -13.763,
+      "inflation": 10.657,
+      "interest_rate": 13.692,
+      "gdp_growth": 7.492,
+      "unemployment": 8.15
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2017,
+      "consumption_growth": -13.879,
+      "inflation": 10.491,
+      "interest_rate": 13.177,
+      "gdp_growth": 2.477,
+      "unemployment": 8.471
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2018,
+      "consumption_growth": -13.802,
+      "inflation": 11.058,
+      "interest_rate": 12.64,
+      "gdp_growth": 4.491,
+      "unemployment": 8.561
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2019,
+      "consumption_growth": -15.148,
+      "inflation": 12.271,
+      "interest_rate": 13.088,
+      "gdp_growth": 3.822,
+      "unemployment": 8.918
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2020,
+      "consumption_growth": -15.478,
+      "inflation": 11.676,
+      "interest_rate": 14.079,
+      "gdp_growth": 2.575,
+      "unemployment": 9.242
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2021,
+      "consumption_growth": -16.773,
+      "inflation": 13.585,
+      "interest_rate": 14.708,
+      "gdp_growth": 4.892,
+      "unemployment": 8.475
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2022,
+      "consumption_growth": -19.277,
+      "inflation": 15.197,
+      "interest_rate": 15.608,
+      "gdp_growth": 1.741,
+      "unemployment": 8.669
+    },
+    {
+      "country_code": "TUR",
+      "country": "Turkiye",
+      "year": 2023,
+      "consumption_growth": -19.775,
+      "inflation": 14.514,
+      "interest_rate": 16.506,
+      "gdp_growth": 1.513,
+      "unemployment": 8.716
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2000,
+      "consumption_growth": -3.171,
+      "inflation": 3.364,
+      "interest_rate": 5.574,
+      "gdp_growth": 2.342,
+      "unemployment": 6.091
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2001,
+      "consumption_growth": -4.288,
+      "inflation": 4.456,
+      "interest_rate": 6.246,
+      "gdp_growth": 5.901,
+      "unemployment": 5.338
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2002,
+      "consumption_growth": -4.683,
+      "inflation": 5.222,
+      "interest_rate": 6.783,
+      "gdp_growth": 7.398,
+      "unemployment": 4.481
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2003,
+      "consumption_growth": -5.557,
+      "inflation": 4.998,
+      "interest_rate": 7.548,
+      "gdp_growth": 2.01,
+      "unemployment": 4.622
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2004,
+      "consumption_growth": -3.4,
+      "inflation": 3.715,
+      "interest_rate": 6.981,
+      "gdp_growth": 4.949,
+      "unemployment": 4.554
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2005,
+      "consumption_growth": -4.33,
+      "inflation": 3.711,
+      "interest_rate": 6.72,
+      "gdp_growth": 0.237,
+      "unemployment": 4.55
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2006,
+      "consumption_growth": -4.267,
+      "inflation": 3.959,
+      "interest_rate": 7.477,
+      "gdp_growth": 4.345,
+      "unemployment": 4.862
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2007,
+      "consumption_growth": -3.925,
+      "inflation": 2.749,
+      "interest_rate": 7.074,
+      "gdp_growth": 0.447,
+      "unemployment": 5.524
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2008,
+      "consumption_growth": -2.328,
+      "inflation": 2.047,
+      "interest_rate": 5.691,
+      "gdp_growth": 1.417,
+      "unemployment": 5.683
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2009,
+      "consumption_growth": -2.133,
+      "inflation": 1.788,
+      "interest_rate": 5.349,
+      "gdp_growth": 3.584,
+      "unemployment": 5.689
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2010,
+      "consumption_growth": -1.858,
+      "inflation": 2.396,
+      "interest_rate": 5.228,
+      "gdp_growth": 1.831,
+      "unemployment": 5.587
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2011,
+      "consumption_growth": -1.921,
+      "inflation": 1.913,
+      "interest_rate": 5.583,
+      "gdp_growth": 3.903,
+      "unemployment": 5.618
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2012,
+      "consumption_growth": -1.832,
+      "inflation": 2.86,
+      "interest_rate": 5.25,
+      "gdp_growth": 3.996,
+      "unemployment": 4.131
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2013,
+      "consumption_growth": -3.003,
+      "inflation": 3.172,
+      "interest_rate": 5.808,
+      "gdp_growth": 2.031,
+      "unemployment": 4.317
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2014,
+      "consumption_growth": -3.491,
+      "inflation": 2.73,
+      "interest_rate": 5.074,
+      "gdp_growth": 5.302,
+      "unemployment": 3.486
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2015,
+      "consumption_growth": -1.505,
+      "inflation": 2.284,
+      "interest_rate": 5.258,
+      "gdp_growth": 2.461,
+      "unemployment": 4.308
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2016,
+      "consumption_growth": -2.747,
+      "inflation": 2.532,
+      "interest_rate": 6.016,
+      "gdp_growth": 4.165,
+      "unemployment": 4.243
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2017,
+      "consumption_growth": -3.1,
+      "inflation": 2.062,
+      "interest_rate": 6.172,
+      "gdp_growth": 1.164,
+      "unemployment": 4.617
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2018,
+      "consumption_growth": -2.896,
+      "inflation": 3.007,
+      "interest_rate": 5.881,
+      "gdp_growth": 2.311,
+      "unemployment": 4.504
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2019,
+      "consumption_growth": -3.091,
+      "inflation": 3.285,
+      "interest_rate": 6.212,
+      "gdp_growth": 3.984,
+      "unemployment": 4.85
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2020,
+      "consumption_growth": -3.667,
+      "inflation": 3.2,
+      "interest_rate": 6.081,
+      "gdp_growth": -0.799,
+      "unemployment": 5.903
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2021,
+      "consumption_growth": -4.602,
+      "inflation": 4.786,
+      "interest_rate": 7.423,
+      "gdp_growth": 2.988,
+      "unemployment": 5.233
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2022,
+      "consumption_growth": -7.937,
+      "inflation": 7.06,
+      "interest_rate": 8.192,
+      "gdp_growth": 5.142,
+      "unemployment": 5.248
+    },
+    {
+      "country_code": "POL",
+      "country": "Poland",
+      "year": 2023,
+      "consumption_growth": -5.315,
+      "inflation": 4.943,
+      "interest_rate": 8.09,
+      "gdp_growth": 4.412,
+      "unemployment": 4.805
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2000,
+      "consumption_growth": -1.726,
+      "inflation": 1.76,
+      "interest_rate": 3.312,
+      "gdp_growth": 1.412,
+      "unemployment": 14.517
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2001,
+      "consumption_growth": -3.403,
+      "inflation": 2.881,
+      "interest_rate": 3.534,
+      "gdp_growth": 0.266,
+      "unemployment": 15.473
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2002,
+      "consumption_growth": -3.904,
+      "inflation": 3.226,
+      "interest_rate": 4.063,
+      "gdp_growth": 7.384,
+      "unemployment": 14.416
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2003,
+      "consumption_growth": -4.492,
+      "inflation": 3.323,
+      "interest_rate": 3.775,
+      "gdp_growth": -0.722,
+      "unemployment": 14.529
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2004,
+      "consumption_growth": -2.681,
+      "inflation": 1.898,
+      "interest_rate": 3.852,
+      "gdp_growth": 3.828,
+      "unemployment": 13.934
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2005,
+      "consumption_growth": -1.631,
+      "inflation": 0.843,
+      "interest_rate": 3.275,
+      "gdp_growth": -1.074,
+      "unemployment": 14.049
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2006,
+      "consumption_growth": -0.757,
+      "inflation": 0.017,
+      "interest_rate": 2.382,
+      "gdp_growth": 3.91,
+      "unemployment": 13.833
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2007,
+      "consumption_growth": -1.16,
+      "inflation": 1.461,
+      "interest_rate": 2.43,
+      "gdp_growth": -2.812,
+      "unemployment": 13.567
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2008,
+      "consumption_growth": -2.745,
+      "inflation": 2.075,
+      "interest_rate": 2.598,
+      "gdp_growth": 2.133,
+      "unemployment": 12.988
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2009,
+      "consumption_growth": -3.45,
+      "inflation": 2.061,
+      "interest_rate": 2.887,
+      "gdp_growth": -1.48,
+      "unemployment": 13.827
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2010,
+      "consumption_growth": -1.962,
+      "inflation": 1.292,
+      "interest_rate": 2.817,
+      "gdp_growth": 5.031,
+      "unemployment": 13.108
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2011,
+      "consumption_growth": -2.32,
+      "inflation": 1.605,
+      "interest_rate": 2.359,
+      "gdp_growth": 1.433,
+      "unemployment": 13.484
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2012,
+      "consumption_growth": -0.198,
+      "inflation": 1.353,
+      "interest_rate": 1.756,
+      "gdp_growth": 2.413,
+      "unemployment": 13.63
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2013,
+      "consumption_growth": -0.949,
+      "inflation": 0.947,
+      "interest_rate": 1.977,
+      "gdp_growth": 0.308,
+      "unemployment": 13.289
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2014,
+      "consumption_growth": -0.902,
+      "inflation": 1.031,
+      "interest_rate": 2.547,
+      "gdp_growth": 0.923,
+      "unemployment": 12.963
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2015,
+      "consumption_growth": 0.498,
+      "inflation": 0.469,
+      "interest_rate": 1.153,
+      "gdp_growth": 1.58,
+      "unemployment": 13.523
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2016,
+      "consumption_growth": -0.65,
+      "inflation": 0.861,
+      "interest_rate": 0.861,
+      "gdp_growth": 2.557,
+      "unemployment": 13.737
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2017,
+      "consumption_growth": -1.174,
+      "inflation": 1.825,
+      "interest_rate": 1.295,
+      "gdp_growth": -0.41,
+      "unemployment": 14.188
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2018,
+      "consumption_growth": -2.435,
+      "inflation": 2.291,
+      "interest_rate": 2.625,
+      "gdp_growth": -0.26,
+      "unemployment": 14.531
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2019,
+      "consumption_growth": -2.788,
+      "inflation": 2.55,
+      "interest_rate": 2.495,
+      "gdp_growth": -1.958,
+      "unemployment": 13.809
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2020,
+      "consumption_growth": -1.923,
+      "inflation": 1.497,
+      "interest_rate": 1.387,
+      "gdp_growth": -0.954,
+      "unemployment": 13.699
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2021,
+      "consumption_growth": -3.47,
+      "inflation": 3.308,
+      "interest_rate": 2.031,
+      "gdp_growth": 0.33,
+      "unemployment": 13.623
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2022,
+      "consumption_growth": -4.324,
+      "inflation": 4.943,
+      "interest_rate": 2.913,
+      "gdp_growth": -0.887,
+      "unemployment": 13.554
+    },
+    {
+      "country_code": "ESP",
+      "country": "Spain",
+      "year": 2023,
+      "consumption_growth": -3.99,
+      "inflation": 3.757,
+      "interest_rate": 3.545,
+      "gdp_growth": 1.675,
+      "unemployment": 14.055
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2000,
+      "consumption_growth": -3.595,
+      "inflation": 2.698,
+      "interest_rate": 3.797,
+      "gdp_growth": 4.542,
+      "unemployment": 9.726
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2001,
+      "consumption_growth": -4.689,
+      "inflation": 3.238,
+      "interest_rate": 4.265,
+      "gdp_growth": 1.891,
+      "unemployment": 9.866
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2002,
+      "consumption_growth": -5.225,
+      "inflation": 3.759,
+      "interest_rate": 4.772,
+      "gdp_growth": 0.222,
+      "unemployment": 9.594
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2003,
+      "consumption_growth": -5.003,
+      "inflation": 3.763,
+      "interest_rate": 4.622,
+      "gdp_growth": -0.718,
+      "unemployment": 9.315
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2004,
+      "consumption_growth": -5.37,
+      "inflation": 3.995,
+      "interest_rate": 5.124,
+      "gdp_growth": -0.764,
+      "unemployment": 9.592
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2005,
+      "consumption_growth": -5.333,
+      "inflation": 3.102,
+      "interest_rate": 5.303,
+      "gdp_growth": -1.162,
+      "unemployment": 9.229
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2006,
+      "consumption_growth": -4.404,
+      "inflation": 2.396,
+      "interest_rate": 5.065,
+      "gdp_growth": -4.059,
+      "unemployment": 10.104
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2007,
+      "consumption_growth": -5.011,
+      "inflation": 2.901,
+      "interest_rate": 5.067,
+      "gdp_growth": 2.11,
+      "unemployment": 8.718
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2008,
+      "consumption_growth": -4.836,
+      "inflation": 2.51,
+      "interest_rate": 4.15,
+      "gdp_growth": -0.857,
+      "unemployment": 8.976
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2009,
+      "consumption_growth": -5.783,
+      "inflation": 3.273,
+      "interest_rate": 4.166,
+      "gdp_growth": -2.541,
+      "unemployment": 9.097
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2010,
+      "consumption_growth": -4.654,
+      "inflation": 3.103,
+      "interest_rate": 4.56,
+      "gdp_growth": -0.28,
+      "unemployment": 9.745
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2011,
+      "consumption_growth": -5.921,
+      "inflation": 3.662,
+      "interest_rate": 5.63,
+      "gdp_growth": 0.719,
+      "unemployment": 9.813
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2012,
+      "consumption_growth": -5.016,
+      "inflation": 2.546,
+      "interest_rate": 5.12,
+      "gdp_growth": 1.334,
+      "unemployment": 10.035
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2013,
+      "consumption_growth": -4.269,
+      "inflation": 2.527,
+      "interest_rate": 4.831,
+      "gdp_growth": 0.955,
+      "unemployment": 9.688
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2014,
+      "consumption_growth": -4.701,
+      "inflation": 2.212,
+      "interest_rate": 5.216,
+      "gdp_growth": 3.742,
+      "unemployment": 8.972
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2015,
+      "consumption_growth": -3.831,
+      "inflation": 0.603,
+      "interest_rate": 4.639,
+      "gdp_growth": 1.299,
+      "unemployment": 9.49
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2016,
+      "consumption_growth": -2.022,
+      "inflation": 0.959,
+      "interest_rate": 3.897,
+      "gdp_growth": 1.801,
+      "unemployment": 9.513
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2017,
+      "consumption_growth": -1.898,
+      "inflation": 0.527,
+      "interest_rate": 3.294,
+      "gdp_growth": 0.609,
+      "unemployment": 9.894
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2018,
+      "consumption_growth": -3.309,
+      "inflation": 1.926,
+      "interest_rate": 3.478,
+      "gdp_growth": 1.397,
+      "unemployment": 10.095
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2019,
+      "consumption_growth": -3.504,
+      "inflation": 2.375,
+      "interest_rate": 3.542,
+      "gdp_growth": 0.488,
+      "unemployment": 9.297
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2020,
+      "consumption_growth": -4.028,
+      "inflation": 2.009,
+      "interest_rate": 3.983,
+      "gdp_growth": 2.089,
+      "unemployment": 9.275
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2021,
+      "consumption_growth": -5.147,
+      "inflation": 4.056,
+      "interest_rate": 4.551,
+      "gdp_growth": 0.507,
+      "unemployment": 9.316
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2022,
+      "consumption_growth": -9.732,
+      "inflation": 6.684,
+      "interest_rate": 6.429,
+      "gdp_growth": 1.07,
+      "unemployment": 9.402
+    },
+    {
+      "country_code": "ITA",
+      "country": "Italy",
+      "year": 2023,
+      "consumption_growth": -10.422,
+      "inflation": 6.195,
+      "interest_rate": 7.97,
+      "gdp_growth": 0.859,
+      "unemployment": 9.478
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2000,
+      "consumption_growth": -1.498,
+      "inflation": 1.774,
+      "interest_rate": 2.383,
+      "gdp_growth": 0.206,
+      "unemployment": 4.295
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2001,
+      "consumption_growth": -2.773,
+      "inflation": 2.686,
+      "interest_rate": 3.064,
+      "gdp_growth": 1.725,
+      "unemployment": 3.992
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2002,
+      "consumption_growth": -3.174,
+      "inflation": 3.288,
+      "interest_rate": 3.36,
+      "gdp_growth": -1.072,
+      "unemployment": 3.255
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2003,
+      "consumption_growth": -3.176,
+      "inflation": 3.442,
+      "interest_rate": 3.38,
+      "gdp_growth": 3.038,
+      "unemployment": 3.354
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2004,
+      "consumption_growth": -3.729,
+      "inflation": 3.272,
+      "interest_rate": 4.036,
+      "gdp_growth": 0.807,
+      "unemployment": 4.137
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2005,
+      "consumption_growth": -4.642,
+      "inflation": 3.725,
+      "interest_rate": 4.559,
+      "gdp_growth": 1.52,
+      "unemployment": 4.912
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2006,
+      "consumption_growth": -3.209,
+      "inflation": 2.167,
+      "interest_rate": 4.301,
+      "gdp_growth": 0.77,
+      "unemployment": 4.661
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2007,
+      "consumption_growth": -2.617,
+      "inflation": 2.462,
+      "interest_rate": 4.234,
+      "gdp_growth": 1.496,
+      "unemployment": 3.694
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2008,
+      "consumption_growth": -3.217,
+      "inflation": 2.512,
+      "interest_rate": 3.357,
+      "gdp_growth": -0.869,
+      "unemployment": 3.562
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2009,
+      "consumption_growth": -3.251,
+      "inflation": 1.903,
+      "interest_rate": 3.277,
+      "gdp_growth": 0.621,
+      "unemployment": 2.942
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2010,
+      "consumption_growth": -2.331,
+      "inflation": 2.618,
+      "interest_rate": 3.522,
+      "gdp_growth": 3.143,
+      "unemployment": 2.734
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2011,
+      "consumption_growth": -2.183,
+      "inflation": 1.983,
+      "interest_rate": 3.013,
+      "gdp_growth": 4.504,
+      "unemployment": 2.51
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2012,
+      "consumption_growth": -0.871,
+      "inflation": 1.218,
+      "interest_rate": 2.726,
+      "gdp_growth": 3.549,
+      "unemployment": 1.705
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2013,
+      "consumption_growth": -1.173,
+      "inflation": 1.459,
+      "interest_rate": 2.89,
+      "gdp_growth": 1.733,
+      "unemployment": 2.14
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2014,
+      "consumption_growth": -2.976,
+      "inflation": 2.015,
+      "interest_rate": 3.217,
+      "gdp_growth": 1.203,
+      "unemployment": 2.044
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2015,
+      "consumption_growth": -1.994,
+      "inflation": 2.238,
+      "interest_rate": 2.432,
+      "gdp_growth": 0.846,
+      "unemployment": 2.625
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2016,
+      "consumption_growth": -1.578,
+      "inflation": 1.756,
+      "interest_rate": 2.448,
+      "gdp_growth": 2.166,
+      "unemployment": 2.619
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2017,
+      "consumption_growth": -4.017,
+      "inflation": 3.131,
+      "interest_rate": 3.229,
+      "gdp_growth": -0.842,
+      "unemployment": 2.794
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2018,
+      "consumption_growth": -3.43,
+      "inflation": 3.44,
+      "interest_rate": 3.333,
+      "gdp_growth": 1.313,
+      "unemployment": 2.806
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2019,
+      "consumption_growth": -3.854,
+      "inflation": 4.213,
+      "interest_rate": 4.379,
+      "gdp_growth": 1.151,
+      "unemployment": 2.174
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2020,
+      "consumption_growth": -4.526,
+      "inflation": 3.638,
+      "interest_rate": 4.687,
+      "gdp_growth": 0.023,
+      "unemployment": 2.613
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2021,
+      "consumption_growth": -6.429,
+      "inflation": 6.276,
+      "interest_rate": 5.31,
+      "gdp_growth": 3.204,
+      "unemployment": 2.66
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2022,
+      "consumption_growth": -7.519,
+      "inflation": 6.836,
+      "interest_rate": 5.486,
+      "gdp_growth": 3.156,
+      "unemployment": 2.415
+    },
+    {
+      "country_code": "NLD",
+      "country": "Netherlands",
+      "year": 2023,
+      "consumption_growth": -6.702,
+      "inflation": 5.592,
+      "interest_rate": 5.598,
+      "gdp_growth": -0.736,
+      "unemployment": 2.834
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2000,
+      "consumption_growth": -1.004,
+      "inflation": 1.971,
+      "interest_rate": 2.396,
+      "gdp_growth": 2.23,
+      "unemployment": 6.496
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2001,
+      "consumption_growth": -1.411,
+      "inflation": 2.352,
+      "interest_rate": 3.162,
+      "gdp_growth": 2.967,
+      "unemployment": 6.209
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2002,
+      "consumption_growth": -2.585,
+      "inflation": 2.186,
+      "interest_rate": 3.14,
+      "gdp_growth": 1.108,
+      "unemployment": 6.282
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2003,
+      "consumption_growth": -1.547,
+      "inflation": 1.727,
+      "interest_rate": 2.82,
+      "gdp_growth": 3.504,
+      "unemployment": 6.231
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2004,
+      "consumption_growth": -1.116,
+      "inflation": 1.491,
+      "interest_rate": 2.539,
+      "gdp_growth": 2.994,
+      "unemployment": 6.007
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2005,
+      "consumption_growth": -1.619,
+      "inflation": 1.064,
+      "interest_rate": 3.865,
+      "gdp_growth": 0.649,
+      "unemployment": 6.26
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2006,
+      "consumption_growth": -1.854,
+      "inflation": 1.452,
+      "interest_rate": 3.551,
+      "gdp_growth": 1.333,
+      "unemployment": 6.693
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2007,
+      "consumption_growth": -1.932,
+      "inflation": 1.101,
+      "interest_rate": 3.807,
+      "gdp_growth": 0.175,
+      "unemployment": 6.979
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2008,
+      "consumption_growth": -3.046,
+      "inflation": 1.691,
+      "interest_rate": 3.556,
+      "gdp_growth": -0.349,
+      "unemployment": 6.795
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2009,
+      "consumption_growth": -2.545,
+      "inflation": 1.415,
+      "interest_rate": 3.565,
+      "gdp_growth": -0.078,
+      "unemployment": 6.962
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2010,
+      "consumption_growth": -1.188,
+      "inflation": 1.218,
+      "interest_rate": 2.756,
+      "gdp_growth": 3.871,
+      "unemployment": 6.924
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2011,
+      "consumption_growth": -0.742,
+      "inflation": 1.581,
+      "interest_rate": 1.995,
+      "gdp_growth": 4.312,
+      "unemployment": 6.824
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2012,
+      "consumption_growth": -2.77,
+      "inflation": 2.715,
+      "interest_rate": 2.028,
+      "gdp_growth": 0.879,
+      "unemployment": 6.974
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2013,
+      "consumption_growth": -1.11,
+      "inflation": 2.02,
+      "interest_rate": 1.866,
+      "gdp_growth": 2.757,
+      "unemployment": 6.547
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2014,
+      "consumption_growth": -0.538,
+      "inflation": 0.919,
+      "interest_rate": 0.876,
+      "gdp_growth": 2.697,
+      "unemployment": 7.105
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2015,
+      "consumption_growth": 0.169,
+      "inflation": 0.99,
+      "interest_rate": 1.319,
+      "gdp_growth": 1.584,
+      "unemployment": 7.087
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2016,
+      "consumption_growth": 0.606,
+      "inflation": 1.357,
+      "interest_rate": 1.493,
+      "gdp_growth": 3.695,
+      "unemployment": 6.634
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2017,
+      "consumption_growth": -0.959,
+      "inflation": 1.969,
+      "interest_rate": 1.336,
+      "gdp_growth": 2.292,
+      "unemployment": 6.221
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2018,
+      "consumption_growth": -0.122,
+      "inflation": 0.955,
+      "interest_rate": 1.604,
+      "gdp_growth": 1.758,
+      "unemployment": 6.553
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2019,
+      "consumption_growth": 0.748,
+      "inflation": 0.071,
+      "interest_rate": 0.618,
+      "gdp_growth": 2.535,
+      "unemployment": 6.079
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2020,
+      "consumption_growth": 0.461,
+      "inflation": 0.597,
+      "interest_rate": 0.259,
+      "gdp_growth": -0.25,
+      "unemployment": 6.62
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2021,
+      "consumption_growth": -2.08,
+      "inflation": 3.573,
+      "interest_rate": 1.797,
+      "gdp_growth": 3.635,
+      "unemployment": 6.588
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2022,
+      "consumption_growth": -3.322,
+      "inflation": 4.714,
+      "interest_rate": 3.336,
+      "gdp_growth": 2.898,
+      "unemployment": 6.296
+    },
+    {
+      "country_code": "SWE",
+      "country": "Sweden",
+      "year": 2023,
+      "consumption_growth": -5.651,
+      "inflation": 5.129,
+      "interest_rate": 3.93,
+      "gdp_growth": -0.074,
+      "unemployment": 7.359
+    }
+  ]
+}
